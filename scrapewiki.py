@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import json
+import re
 from pprint import pprint
 
 import requests
@@ -11,6 +12,10 @@ page = requests.get("https://github.com/mpv-player/mpv/wiki/User-Scripts")
 soup = BeautifulSoup(page.content, "html.parser")
 elements = soup.find(id="wiki-body").select("li, h2")
 
+re_windows = re.compile(r"\b[wW]indows\b")
+re_linux = re.compile(r"\b[lL]inux\b")
+re_mac = re.compile(r"\bmac(os|\b)", re.IGNORECASE)
+re_unix = re.compile(r"\*nix|Unix")
 
 allscripts = []
 for entry in elements:
@@ -25,7 +30,17 @@ for entry in elements:
     script["url"] = entry.find("a").attrs["href"]
     p = entry.find("p")
     if p:
-        script["desc"] = p.find_all(text=True)[-1].strip()
+        desc = p.find_all(text=True)[-1].strip()  # FIXME
+        script["desc"] = desc
+        script["os"] = []
+        if re_linux.search(desc):
+            script["os"].append("Linux")
+        if re_windows.search(desc):
+            script["os"].append("Windows")
+        if re_mac.search(desc):
+            script["os"].append("Mac")
+        if re_unix.search(desc):
+            script["os"] += ["Linux", "Mac"]
     allscripts.append(script)
 
 allscripts = updatestars(allscripts)

@@ -70,11 +70,11 @@ def updatestars(allscripts):
 
 
 if __name__ == "__main__":
-    with open("mpvscripts.json") as f:
+    with open("mpv_script_directory.json") as f:
         allscripts = json.load(f)
 
     allscripts = updatestars(allscripts)
     pprint(allscripts)
 
-    with open("mpvscripts.json", "w") as f:
+    with open("mpv_script_directory.json", "w") as f:
         json.dump(allscripts, f, indent=4)

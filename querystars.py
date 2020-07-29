@@ -4,18 +4,23 @@ import re
 from pprint import pprint
 
 import requests
+from bs4 import BeautifulSoup
 from requests.auth import HTTPBasicAuth
 
 import credentials
 
 auth = HTTPBasicAuth(credentials.user, credentials.token)
-re_github = re.compile(r"^https://github\.com/[^/]+/[^/]+/?")
+re_gitlab = re.compile(
+    r"^https://gitlab\.com/([^/]+)/([^/]+)(?:/[^#&]*?)*?([^/#&]+)?/?(?:#.*|&.*)*$"
+)
+re_github = re.compile(
+    r"^https://github\.com/([^/]+)/([^/]+)(?:/[^#&]*?)*?([^/#&]+)?/?(?:#.*|&.*)*$"
+)
+re_gist = re.compile(r"^https://gist.github\.com/([^/]+)/(\w+)/?(?:#.*|&.*)*$")
 
 
-def getGithubStars(github_url):
-    api_url = github_url.replace("https://github.com/", "https://api.github.com/repos/")
-    if api_url[-1] == "/":
-        api_url = api_url[:-1]
+def getGithubStars(owner, repo, _):
+    api_url = f"https://api.github.com/repos/{owner}/{repo}"
     r = requests.get(api_url, auth=auth)
     if r.status_code != 200:
         return None
@@ -27,17 +32,40 @@ def getGithubStars(github_url):
 
 
 def updatestars(allscripts):
-    for script in allscripts:
+    for script in allscripts.values():
         stars = None
-        github_url = re_github.match(script["url"])
-        if github_url:
-            stars = getGithubStars(github_url.group())
-            own = github_url.group() == script["url"]
+        match = re_github.fullmatch(script["url"])
+        if match:
+            stars = getGithubStars(*match.groups())
+            if stars is None:
+                print("dead url", script["url"])
+                script["url"] = None
+                continue
+            own = match.groups()[2] is None
+        elif re_gist.match(script["url"]):
+            # Github API is missing a possibility to query for stars of a gist
+            page = requests.get(script["url"])
+            if page.status_code == 404:
+                print("dead url", script["url"])
+                script["url"] = None
+                continue
+            soup = BeautifulSoup(page.content, "html.parser")
+            stars = soup.select_one(".social-count").text.strip()
+            own = True
+        elif match := re_gitlab.match(script["url"]):
+            # TODO use gitlab api instead – if possible
+            page = requests.get(script["url"])
+            if page.status_code == 404:
+                print("dead url", script["url"])
+                script["url"] = None
+                continue
+            soup = BeautifulSoup(page.content, "html.parser")
+            stars = soup.select_one(".star-count").text.strip()
+            own = match.groups()[2] is None
         if stars:
             print("got stars:", stars, own)
             script["stars"] = stars
             script["own"] = own
-        # TODO: add gist and gitlab
     return allscripts
 
 

@@ -6,7 +6,7 @@ from pprint import pprint
 import requests
 from bs4 import BeautifulSoup
 
-from querystars import updatestars
+from querystars import re_gist, re_github, re_gitlab, updatestars
 
 page = requests.get("https://github.com/mpv-player/mpv/wiki/User-Scripts")
 soup = BeautifulSoup(page.content, "html.parser")
@@ -16,8 +16,42 @@ re_windows = re.compile(r"\b[wW]indows\b")
 re_linux = re.compile(r"\b[lL]inux\b")
 re_mac = re.compile(r"\bmac(os|\b)", re.IGNORECASE)
 re_unix = re.compile(r"\*nix|Unix")
+re_proto = re.compile(r"^https?://")
+re_domain_file = re.compile(r"^https?://([^/]*)/(?:[^#&]*/)*([^/#&]+)/?(?:#.*|&.*)*$")
 
-allscripts = []
+
+def generateId(name, url):
+    match = re_github.fullmatch(url)
+    if match:
+        return "github:" + "/".join(match.groups("")).rstrip("/")
+    match = re_gitlab.fullmatch(url)
+    if match:
+        return "gitlab:" + "/".join(match.groups("")).rstrip("/")
+    match = re_gist.fullmatch(url)
+    if match:
+        return "gist:" + "/".join(match.groups("")).rstrip("/")
+    match = re_domain_file.fullmatch(url)
+    if match:
+        domain = match.groups()[0]
+        filename = match.groups()[1]
+        return f"{domain}:{filename}"
+    return "XXX"  # FIXME
+
+
+def uniquefy(identifier, name, test):
+    unique = identifier
+    if unique in test:
+        unique = f"{identifier}/{name}"
+        alt = f"{identifier}/{test[identifier]['name']}"
+        test[alt] = test.pop(identifier)
+        counter = 2
+        while unique in test:
+            unique = f"{identifier}-{counter}"
+            counter += 1
+    return unique
+
+
+allscripts = {}
 for entry in elements:
     if entry.name == "h2":
         language = entry.text.strip()
@@ -25,9 +59,12 @@ for entry in elements:
     a = entry.find("a")
     if a is None:
         continue
+    name = entry.find("a").text
+    url = entry.find("a").attrs["href"]
     script = {}
-    script["name"] = entry.find("a").text
-    script["url"] = entry.find("a").attrs["href"]
+    scriptID = uniquefy(generateId(name, url), name, allscripts)
+    script["name"] = name
+    script["url"] = url
     p = entry.find("p")
     if p:
         desc = p.find_all(text=True)[-1].strip()  # FIXME
@@ -41,7 +78,7 @@ for entry in elements:
             script["os"].append("Mac")
         if re_unix.search(desc):
             script["os"] += ["Linux", "Mac"]
-    allscripts.append(script)
+    allscripts[scriptID] = script
 
 allscripts = updatestars(allscripts)
 

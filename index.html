@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>MPV script directory</title>
+		<link rel="stylesheet" href="main.css" type="text/css" charset="utf-8">
+		<script src="populate.js" charset="utf-8"></script>
+	</head>
+	<body>
+		<noscript>No non Javascript version yet. :( Make a PR.</noscript>
+
+
+		<p>
+			*: Multiple scripts share a repository, therefore the star count might not indicate the scripts popularity.
+		</p>
+		<input type="text" id="search" onkeyup="Search()" placeholder="Search" />
+		<table id="main">
+			<thead>
+				<tr>
+					<th class="sort" data-sort="name">Name</th>
+					<th class="sort" data-sort="Stars">Stars</th>
+					<th class="sort" data-sort="Desc">Description</th>
+				</tr>
+			</thead>
+			<tbody class="list" id="tbody">
+			</tbody>
+		</table>
+
+
+		<template id="scriptrow">
+			<tr>
+				<td><a class="name"></a></td>
+				<td class="stars"></td>
+				<td class="desc"></td>
+			</tr>
+		</template>
+	</body>
+</html>

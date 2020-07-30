@@ -1,0 +1,22 @@
+body {
+	margin: 1em;
+}
+table {
+	border-spacing:  0 0.5em;
+	border-collapse: separate;
+}
+
+tr:nth-child(even) {
+	background-color: #eee;
+}
+
+thead {
+	background-color: #eaa;
+}
+thead th {
+	padding: 1em 0;
+}
+
+td {
+	  padding: 0.5em 1em;
+}

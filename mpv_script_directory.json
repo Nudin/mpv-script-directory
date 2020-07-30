@@ -155,7 +155,11 @@
         "desc": "Automatically apply profiles based on predicates written as Lua expressions.",
         "os": [],
         "stars": 50,
-        "own": false
+        "own": false,
+        "install": "git",
+        "git": "https://github.com/wiiaboo/mpv-scripts",
+        "gitdir": "github/wiiaboo-mpv-scripts",
+        "scriptfiles": ["auto-profiles.lua"]
     },
     "github:AN3223/dotfiles/auto-save-state.lua": {
         "name": "auto-save-state",

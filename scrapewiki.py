@@ -51,10 +51,24 @@ def uniquefy(identifier, name, test):
     return unique
 
 
+def extractText(element):
+    texts = element.find_all(text=True)
+    return "".join(texts[1:]).strip()
+
+
+def normalizeType(type):
+    type = type.lower()
+    if type[-1] == "s":
+        type = type[:-1]
+    if type == "c plugin":
+        type = "C plugin"
+    return type
+
+
 allscripts = {}
 for entry in elements:
     if entry.name == "h2":
-        language = entry.text.strip()
+        type = entry.text.strip()
         continue
     a = entry.find("a")
     if a is None:
@@ -65,9 +79,10 @@ for entry in elements:
     scriptID = uniquefy(generateId(name, url), name, allscripts)
     script["name"] = name
     script["url"] = url
+    script["type"] = normalizeType(type)
     p = entry.find("p")
     if p:
-        desc = p.find_all(text=True)[-1].strip()  # FIXME
+        desc = extractText(p)
         script["desc"] = desc
         script["os"] = []
         if re_linux.search(desc):

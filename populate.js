@@ -57,7 +57,7 @@ var main = (function () {
       link.href = row.url
       link.innerText = row.name
       stars.innerText = row.stars || ""
-      if (!row.own && row.stars) {
+      if (row.sharedrepo && row.stars) {
         stars.innerText += '*'
       }
       stars.dataset["sortvalue"] = row.stars || 0

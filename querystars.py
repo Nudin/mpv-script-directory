@@ -41,7 +41,7 @@ def updatestars(allscripts):
                 print("dead url", script["url"])
                 script["url"] = None
                 continue
-            own = match.groups()[2] is None
+            shared = match.groups()[2] is not None
         elif re_gist.match(script["url"]):
             # Github API is missing a possibility to query for stars of a gist
             page = requests.get(script["url"])
@@ -51,7 +51,7 @@ def updatestars(allscripts):
                 continue
             soup = BeautifulSoup(page.content, "html.parser")
             stars = int(soup.select_one(".social-count").text.strip())
-            own = True
+            shared = False
         elif match := re_gitlab.match(script["url"]):
             # TODO use gitlab api instead – if possible
             page = requests.get(script["url"])
@@ -61,11 +61,11 @@ def updatestars(allscripts):
                 continue
             soup = BeautifulSoup(page.content, "html.parser")
             stars = int(soup.select_one(".star-count").text.strip())
-            own = match.groups()[2] is None
+            shared = match.groups()[2] is not None
         if stars:
-            print("got stars:", stars, own)
+            print("got stars:", stars, shared)
             script["stars"] = stars
-            script["own"] = own
+            script["sharedrepo"] = shared
     return allscripts
 
 

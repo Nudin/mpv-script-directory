@@ -192,7 +192,7 @@
         "type": "lua script",
         "desc": "Periodically saves \"watch later\" data during playback, rather than only saving on quit.",
         "os": [],
-        "stars": "14",
+        "stars": 14,
         "own": true
     },
     "github:kevinlekiller/mpv_scripts/autospeed": {
@@ -255,7 +255,7 @@
         "type": "lua script",
         "desc": " (update)Loads the next or previous playlist entry if there are no more chapters in the seek direction.",
         "os": [],
-        "stars": "6",
+        "stars": 6,
         "own": true
     },
     "github:occivink/mpv-scripts#blur-edgeslua": {
@@ -291,7 +291,7 @@
         "type": "lua script",
         "desc": "A set of keybindings using a modifier (Shift or Ctrl) and the function keys (F8-F12) to can adjust the mixing level of surround channels on the fly.",
         "os": [],
-        "stars": "1",
+        "stars": 1,
         "own": true
     },
     "github:po5/chapterskip": {
@@ -341,7 +341,7 @@
             "Linux",
             "Mac"
         ],
-        "stars": "10",
+        "stars": 10,
         "own": true
     },
     "gist:Zehkul/25ea7ae77b30af959be0": {
@@ -350,7 +350,7 @@
         "type": "lua script",
         "desc": "Script to quickly convert and crop videos from within mpv, with a GUI.",
         "os": [],
-        "stars": "59",
+        "stars": 59,
         "own": true
     },
     "github:CogentRedTester/mpv-scripts/coverart.lua": {
@@ -368,7 +368,7 @@
         "type": "lua script",
         "desc": "Copy mpv --time=<current-position> <path-playing> to clipboard. Useful for sharing when playing URLs.",
         "os": [],
-        "stars": "2",
+        "stars": 2,
         "own": true
     },
     "github:occivink/mpv-scripts#croplua": {
@@ -386,7 +386,7 @@
         "type": "lua script",
         "desc": "Constantly show current time on the lower left corner of the video screen.",
         "os": [],
-        "stars": "1",
+        "stars": 1,
         "own": true
     },
     "gitlab:mozbugbox/mpv-script-mozbugbox/curvesman": {
@@ -395,7 +395,7 @@
         "type": "lua script",
         "desc": "Manipulate color curves filter of FFmpeg with hotkeys. Brighten up color, change color temperature/tone, hopefully more. Adjust yellow light tone to white light tone.",
         "os": [],
-        "stars": "1",
+        "stars": 1,
         "own": true
     },
     "gist:bitingsock/ad58ee5da560ecb922fa4a867ac0ecfd": {
@@ -404,7 +404,7 @@
         "type": "lua script",
         "desc": "Cycle through available audio devices with key binds.",
         "os": [],
-        "stars": "7",
+        "stars": 7,
         "own": true
     },
     "github:mpv-player/mpv/cycle-deinterlace-pullup.lua": {
@@ -422,7 +422,7 @@
         "type": "lua script",
         "desc": "Cycle between lavfi's denoise filters (press n)",
         "os": [],
-        "stars": "3",
+        "stars": 3,
         "own": true
     },
     "gist:rrooij/59f57ff5f5a952e56bbb": {
@@ -431,7 +431,7 @@
         "type": "lua script",
         "desc": "Cycle between custom OSD messages.",
         "os": [],
-        "stars": "1",
+        "stars": 1,
         "own": true
     },
     "github:VideoPlayerCode/mpv-tools/auto-keep-gui-open": {
@@ -492,7 +492,7 @@
         "type": "lua script",
         "desc": "Dynamic Audio Normalizer filter with visual feedback.",
         "os": [],
-        "stars": "3",
+        "stars": 3,
         "own": true
     },
     "github:aidanholm/mpv-easycrop": {
@@ -519,7 +519,7 @@
         "type": "lua script",
         "desc": "5-bands equalizer with colorful display.",
         "os": [],
-        "stars": "17",
+        "stars": 17,
         "own": true
     },
     "gitlab:lvml/mpv-plugin-excerpt": {
@@ -528,7 +528,7 @@
         "type": "lua script",
         "desc": "Allows you to quickly create excerpts from media files, you just have to set begin and end markers.",
         "os": [],
-        "stars": "11",
+        "stars": 11,
         "own": true
     },
     "github:zc62/mpv-scripts/exit-fullscreen.lua": {
@@ -573,7 +573,7 @@
         "type": "lua script",
         "desc": "Test mpv/FFmpeg video filter(vf) strings with editable popup dialog.",
         "os": [],
-        "stars": "1",
+        "stars": 1,
         "own": true
     },
     "github:directorscut82/find_subtitles": {
@@ -693,7 +693,7 @@
         "type": "lua script",
         "desc": "Use KDE's KDialog to add files to playlist, subtitles to playing video or open URLs.",
         "os": [],
-        "stars": "6",
+        "stars": 6,
         "own": true
     },
     "github:occivink/mpv-image-viewer/drag-to-pan": {
@@ -912,7 +912,7 @@
         "os": [
             "Windows"
         ],
-        "stars": "11",
+        "stars": 11,
         "own": true
     },
     "github:mdnghtman/mpv-i3-floating-centered": {
@@ -1059,7 +1059,7 @@
             "Linux",
             "Mac"
         ],
-        "stars": "1",
+        "stars": 1,
         "own": true
     },
     "gitlab:carmanaught/mpvcontextmenu": {
@@ -1068,7 +1068,7 @@
         "type": "lua script",
         "desc": "Comprehensive context-menu forked from Tcl/Tk context menu. Uses other scripts (see Requirements).",
         "os": [],
-        "stars": "6",
+        "stars": 6,
         "own": true
     },
     "github:nezumisama/mpvmenu": {
@@ -1224,7 +1224,7 @@
         "type": "lua script",
         "desc": "Displays a momentary icon that flashes in the middle of the screen, similar to YouTube.",
         "os": [],
-        "stars": "7",
+        "stars": 7,
         "own": true
     },
     "github:mpv-player/mpv/pause-when-minimize.lua": {
@@ -1242,7 +1242,7 @@
         "type": "lua script",
         "desc": "Allows streaming of magnet links using peerflix, similar to youtube-dl.",
         "os": [],
-        "stars": "9",
+        "stars": 9,
         "own": true
     },
     "github:noctuid/mpv-peerflix-hook": {
@@ -1384,7 +1384,7 @@
         "type": "lua script",
         "desc": "Based on the above one, this one also re-enables redshift when pausing and disables it again when unpausing.",
         "os": [],
-        "stars": "1",
+        "stars": 1,
         "own": true
     },
     "github:4e6/mpv-reload": {
@@ -1438,7 +1438,7 @@
         "type": "lua script",
         "desc": "Restore old \"window-scale\" behavior, so to make \"add window-scale +/-\" keybinds work again when any of the autofit-* options are defined.",
         "os": [],
-        "stars": "1",
+        "stars": 1,
         "own": true
     },
     "github:yuukidach/mpv-scripts/history-bookmark": {
@@ -1501,7 +1501,7 @@
         "type": "lua script",
         "desc": "Seeks forward until a black screen appears. Built to skip openings. Uses the lavfi blackdetect filter.",
         "os": [],
-        "stars": "6",
+        "stars": 6,
         "own": true
     },
     "github:detuur/mpv-scripts": {
@@ -1599,7 +1599,7 @@
         "type": "lua script",
         "desc": "Experiment similar to speed-transition. changes playback speed based on volume thresholds.",
         "os": [],
-        "stars": "6",
+        "stars": 6,
         "own": true
     },
     "github:oltodosel/mpv-scripts#speedlua": {
@@ -1781,7 +1781,7 @@
         "type": "lua script",
         "desc": "Provides for more network-glitch-robust caching of live streams by adjusting replay speed.",
         "os": [],
-        "stars": "2",
+        "stars": 2,
         "own": true
     },
     "github:mustaqimM/mpv-scripts/time.lua": {
@@ -1907,7 +1907,7 @@
         "os": [
             "Linux"
         ],
-        "stars": "3",
+        "stars": 3,
         "own": true
     },
     "github:dfaker/VR-reversal": {
@@ -1943,7 +1943,7 @@
         "type": "lua script",
         "desc": "Automatically sets the display refresh rate to the one best suitable for the video played",
         "os": [],
-        "stars": "7",
+        "stars": 7,
         "own": true
     },
     "github:laelnasan/yomichampv": {
@@ -1977,7 +1977,7 @@
         "type": "lua script",
         "desc": "Resolves the next url in the playlist using ytdl before the current file reaches the end. Using --prefetch-playlist along side this it allows i.e. youtube data to begin loading into cache ahead of time.",
         "os": [],
-        "stars": "8",
+        "stars": 8,
         "own": true
     },
     "github:wiiaboo/mpv-scripts/zones.lua": {
@@ -1998,7 +1998,7 @@
     },
     "github:devnikor/mpv-conf/addfile.lua": {
         "name": "addfile",
-        "url": null,
+        "url": "https://github.com/devnikor/mpv-conf/blob/master/scripts/addfile.lua",
         "type": "lua script",
         "desc": "(OS X) Add subtitle or audio track to playing video file",
         "os": []
@@ -2018,7 +2018,7 @@
         "type": "user shader",
         "desc": "A sharpen filter similar to using Unsharp Mask in Photoshop ported from SweetFX shader pack.",
         "os": [],
-        "stars": "9",
+        "stars": 9,
         "own": true
     },
     "gist.github.com:igv": {
@@ -2082,7 +2082,7 @@
         "type": "user shader",
         "desc": "Converts equirectangular 360 degree video to be watchable, at a fixed perspective.",
         "os": [],
-        "stars": "7",
+        "stars": 7,
         "own": true
     },
     "gist:bjin/15f307e7a1bdb55842bbb663ee1950ed": {
@@ -2091,12 +2091,12 @@
         "type": "user shader",
         "desc": "Fastest 0.5x downscaler for mpv, useful for 4K video playback on FHD screen (bypass chroma upscaling and color conversion in 4K resolution).",
         "os": [],
-        "stars": "5",
+        "stars": 5,
         "own": true
     },
     "gist:benzrf/c9909aee70e3656895820f20ac395956": {
         "name": "Nonlinear stretch",
-        "url": null,
+        "url": "https://gist.github.com/benzrf/c9909aee70e3656895820f20ac395956",
         "type": "user shader",
         "desc": "Non-linear stretch scaling. use with --no-keepaspect.",
         "os": []
@@ -2107,7 +2107,7 @@
         "type": "user shader",
         "desc": "Fix radial distortion commonly found in wide angle action cameras.",
         "os": [],
-        "stars": "0",
+        "stars": 0,
         "own": true
     },
     "gist:bjin/399cb23818ad210941725ef768893499": {
@@ -2116,7 +2116,7 @@
         "type": "user shader",
         "desc": "Dynamic stretching filter aiming to bring effects similar to GoPro SuperView.",
         "os": [],
-        "stars": "0",
+        "stars": 0,
         "own": true
     },
     "github:haasn/gentoo-conf/mvtools.vpy": {

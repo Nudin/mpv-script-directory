@@ -50,7 +50,7 @@ def updatestars(allscripts):
                 script["url"] = None
                 continue
             soup = BeautifulSoup(page.content, "html.parser")
-            stars = soup.select_one(".social-count").text.strip()
+            stars = int(soup.select_one(".social-count").text.strip())
             own = True
         elif match := re_gitlab.match(script["url"]):
             # TODO use gitlab api instead – if possible
@@ -60,7 +60,7 @@ def updatestars(allscripts):
                 script["url"] = None
                 continue
             soup = BeautifulSoup(page.content, "html.parser")
-            stars = soup.select_one(".star-count").text.strip()
+            stars = int(soup.select_one(".star-count").text.strip())
             own = match.groups()[2] is None
         if stars:
             print("got stars:", stars, own)

@@ -32,12 +32,13 @@ the known tools with their metadata. The Information is encoded as JSON:
 	  interpreted as platform independent.
 	- `stars`: The number of stars the project's repository has on github/gitlab
 	- `sharedrepo`: Boolean, `True` if the tool shares a repository with other tools
-	- `install`: Install method, currently only `git` is supported
+	- `install`: Install method, currently only `git` is supported by mplug
 	- `git`: If `install` is `git` this should be set to the cloneable url
-	- `gitdir`: Name for local directory to clone the git repo in. Needed
-	  to support scripts sharing a git repo.
+	- `gitdir`: If `install` is `git`: Name for local directory to clone
+	  the git repo in. Needed to support scripts sharing a git repo.
 	- `scriptfiles`: List of files from source that should be installed in
 	  the script folder.
+	- `install-notes`: Text that will be displayed after install.
 - The directory is initially created by scraping the [wiki page](https://github.com/mpv-player/mpv/wiki/User-Scripts). This is done by
   `scrapewiki.py` – in the future the directory should be updated directly and
   the scraping script should therefore become obsolete. Maybe it can be
@@ -50,19 +51,24 @@ Usage
 - [MPlug](https://github.com/Nudin/mplug) is a plugin manager for mpv, it can install plugins from this directory.
 	- Note: For this to work, the directory needs to contain install
 	  instructions. Those are currently still missing for most plugins, but can
-	  be added very easily.
+	  most often be added easily.
 - There is a [Proof-of-Concept webpage](https://nudin.github.io/mpv-script-directory/) that allows searching, sorting and
   filtering the directory.
 - This list can be read with any JSON parser.
 
 
-ToDo
-====
+Status and ToDo
+===============
+The catalog was scraped and enriched by hand. The installation instructions
+have been added for the most prominent scripts but many others are still
+pending. If you want to use a plugin that isn't yet supported, please add the
+Information and open a PR.
+
 There's a lot to do – please help!
+- Fill the install introductions for all tools
 - Add further fields: `screenshot`, `deprecated`, `superseededby`, …
 - Add more install methods: `tar`, `url`, `hg`, …
 - Add support for other file types then scripts: `shaders`, `config`, …
-- Fill the install introductions for all tools
 - Set up an automatic update of the star counts
 - Improve the web version
 - Tell the world!

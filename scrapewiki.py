@@ -57,7 +57,7 @@ def extractText(element):
 
 
 def normalizeType(type):
-    type = type.lower()
+    type = type.strip().lower()
     if type[-1] == "s":
         type = type[:-1]
     if type == "c plugin":
@@ -68,7 +68,8 @@ def normalizeType(type):
 allscripts = {}
 for entry in elements:
     if entry.name == "h2":
-        type = entry.text.strip()
+        type = entry.text
+        type = normalizeType(type)
         continue
     a = entry.find("a")
     if a is None:
@@ -79,7 +80,24 @@ for entry in elements:
     scriptID = uniquefy(generateId(name, url), name, allscripts)
     script["name"] = name
     script["url"] = url
-    script["type"] = normalizeType(type)
+    script["type"] = type
+    match = re_github.fullmatch(url)
+    if match:
+        groups = match.groups()
+        script["install"] = "git-fixme"
+        script["git"] = "https://github.com/%s/%s" % groups[0:2]
+        script["gitdir"] = "github/%s/%s" % groups[0:2]
+        if groups[2] and type == "lua script" and groups[2][-4:] == ".lua":
+            script["scriptfiles"] = [groups[2]]
+    else:
+        match = re_gitlab.fullmatch(url)
+        if match:
+            groups = match.groups()
+            script["install"] = "git-fixme"
+            script["git"] = "https://gitlab.com/%s/%s" % groups[0:2]
+            script["gitdir"] = "gitlab/%s/%s" % groups[0:2]
+            if groups[2] and type == "lua script" and groups[2][-4:] == ".lua":
+                script["scriptfiles"] = [groups[2]]
     p = entry.find("p")
     if p:
         desc = extractText(p)

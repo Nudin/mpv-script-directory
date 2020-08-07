@@ -6,12 +6,15 @@ table {
 	border-collapse: separate;
 }
 
+/*
 tr:nth-child(even) {
 	background-color: #eee;
 }
+*/
 
 thead {
 	background-color: #eaa;
+	cursor: pointer;
 }
 thead th {
 	padding: 1em 0;

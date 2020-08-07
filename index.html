@@ -8,6 +8,7 @@
 		<script src="populate.js" charset="utf-8"></script>
 	</head>
 	<body>
+		<p>List of plugins (scripts, shaders, etc.) for mpv. Use <a href="https://github.com/Nudin/mplug">MPlug</a> to install them.</p>
 		<noscript>No non Javascript version yet. :( Make a PR.</noscript>
 
 
@@ -15,6 +16,16 @@
 			*: Multiple scripts share a repository, therefore the star count might not indicate the scripts popularity.
 		</p>
 		<input type="text" id="search" onkeyup="Search()" placeholder="Search" />
+		<input type="checkbox" class="filter osfilter" name="Linux" id="Linux" checked> <label for="Linux">Linux</label>
+		<input type="checkbox" class="filter osfilter" name="Mac" id="Mac" checked> <label for="Mac">Mac</label>
+		<input type="checkbox" class="filter osfilter" name="Windows" id="Windows" checked> <label for="Windows">Windows</label>
+		<input type="checkbox" class="filter osfilter" name="Portable" id="Portable" checked> <label for="Portable">Platform independent</label>
+
+		<input type="checkbox" class="filter typefilter" name="lua" id="lua" checked> <label for="lua">Lua Scripts</label>
+		<input type="checkbox" class="filter typefilter" name="javascript" id="javascript" checked> <label for="javascript">Javascript Scripts</label>
+		<input type="checkbox" class="filter typefilter" name="C" id="C" checked> <label for="C">C Plugins</label>
+		<input type="checkbox" class="filter typefilter" name="shader" id="shader" checked> <label for="shader">User shader</label>
+		<input type="checkbox" class="filter typefilter" name="other" id="other" checked> <label for="other">Other</label>
 		<table id="main">
 			<thead>
 				<tr>

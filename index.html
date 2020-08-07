@@ -20,6 +20,7 @@
 		<input type="checkbox" class="filter osfilter" name="Mac" id="Mac" checked> <label for="Mac">Mac</label>
 		<input type="checkbox" class="filter osfilter" name="Windows" id="Windows" checked> <label for="Windows">Windows</label>
 		<input type="checkbox" class="filter osfilter" name="Portable" id="Portable" checked> <label for="Portable">Platform independent</label>
+		<span class="separator"></span>
 
 		<input type="checkbox" class="filter typefilter" name="lua" id="lua" checked> <label for="lua">Lua Scripts</label>
 		<input type="checkbox" class="filter typefilter" name="javascript" id="javascript" checked> <label for="javascript">Javascript Scripts</label>
@@ -41,7 +42,7 @@
 
 		<template id="scriptrow">
 			<tr>
-				<td><a class="name"></a></td>
+				<td><a class="name"></a><div class="scriptid"></div></td>
 				<td class="stars"></td>
 				<td class="desc"></td>
 			</tr>

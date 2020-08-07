@@ -52,6 +52,7 @@ var main = (function () {
     var t = document.querySelector('#scriptrow'),
     tr = t.content.querySelector("tr");
     link = t.content.querySelector(".name");
+    scriptid = t.content.querySelector(".scriptid");
     stars = t.content.querySelector(".stars");
     desc = t.content.querySelector(".desc");
     for (var id in rows) {
@@ -66,6 +67,8 @@ var main = (function () {
       var type = row.type.split(' ')[0]
       if ( type === "user" ) { type = "shader" ; }
       tr.classList.add(type)
+      scriptid.innerText = id
+      scriptid.title = "ScriptID"
       link.href = row.url
       link.innerText = row.name
       stars.innerText = row.stars || ""

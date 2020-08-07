@@ -4,13 +4,8 @@ body {
 table {
 	border-spacing:  0 0.5em;
 	border-collapse: separate;
+	width: 100%;
 }
-
-/*
-tr:nth-child(even) {
-	background-color: #eee;
-}
-*/
 
 thead {
 	background-color: #eaa;
@@ -22,4 +17,17 @@ thead th {
 
 td {
 	  padding: 0.5em 1em;
+}
+
+.separator {
+	border-left: 1px grey solid;
+	padding: 0.3em 0;
+}
+
+.name{
+	font-weight: bold;
+}
+.scriptid {
+	font-family: mono;
+	padding: 0.2em 0;
 }

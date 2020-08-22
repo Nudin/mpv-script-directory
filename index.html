@@ -9,13 +9,13 @@
 	</head>
 	<body>
 		<p>List of plugins (scripts, shaders, etc.) for mpv. Use <a href="https://github.com/Nudin/mplug">MPlug</a> to install them.</p>
-		<noscript>No non Javascript version yet. :( Make a PR.</noscript>
+		<noscript>No non-Javascript version yet. :( Make a PR.</noscript>
 
 
 		<p>
 			*: Multiple scripts share a repository, therefore the star count might not indicate the scripts popularity.
 		</p>
-		<input type="text" id="search" onkeyup="Search()" placeholder="Search" />
+		<input type="text" id="search" placeholder="Search" />
 		<input type="checkbox" class="filter osfilter" name="Linux" id="Linux" checked> <label for="Linux">Linux</label>
 		<input type="checkbox" class="filter osfilter" name="Mac" id="Mac" checked> <label for="Mac">Mac</label>
 		<input type="checkbox" class="filter osfilter" name="Windows" id="Windows" checked> <label for="Windows">Windows</label>
@@ -42,7 +42,7 @@
 
 		<template id="scriptrow">
 			<tr>
-				<td><a class="name"></a><div class="scriptid"></div></td>
+				<td><a class="name"></a><div class="scriptid" title="ScriptID"></div></td>
 				<td class="stars"></td>
 				<td class="desc"></td>
 			</tr>

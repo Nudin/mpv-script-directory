@@ -31,3 +31,13 @@ td {
 	font-family: mono;
 	padding: 0.2em 0;
 }
+
+.hidden-by-type-filter {
+	display: none;
+}
+.hidden-by-os-filter {
+	display: none;
+}
+.hidden-by-search {
+	display: none;
+}

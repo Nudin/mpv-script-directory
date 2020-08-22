@@ -68,24 +68,21 @@ var main = (function () {
 
   // Limit the shown rows to those matching the search term
   var search = function () {
-    var input, filter, table, tr, td, i, txtValue
-    input = document.getElementById('search')
-    filter = input.value.toUpperCase()
-    table = document.getElementById('main')
-    tr = table.getElementsByTagName('tr')
+    var filter = document.getElementById('search').value.toUpperCase()
+    var trList = document.querySelectorAll('#main tbody tr')
 
     // Loop through all table rows, and hide those who don't match the search query
-    for (i = 0; i < tr.length; i++) {
-      td = tr[i].getElementsByTagName('td')[0]
-      if (td) {
-        txtValue = td.textContent || td.innerText
-        if (txtValue.toUpperCase().indexOf(filter) > -1) {
-          tr[i].classList.remove('hidden-by-search')
-        } else {
-          tr[i].classList.add('hidden-by-search')
-        }
+    trList.forEach(tr => {
+      var txtValue =
+        tr.querySelector('.scriptid').textContent +
+        '\n' +
+        tr.querySelector('.desc').textContent
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr.classList.remove('hidden-by-search')
+      } else {
+        tr.classList.add('hidden-by-search')
       }
-    }
+    })
     updateZebra()
   }
 

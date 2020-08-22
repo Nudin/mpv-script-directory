@@ -37,8 +37,18 @@ the known tools with their metadata. The Information is encoded as JSON:
 	- `gitdir`: If `install` is `git`: Name for local directory to clone
 	  the git repo in. Needed to support scripts sharing a git repo.
 	- `scriptfiles`: List of files from source that should be installed in
-	  the script folder.
+	  the script folder (`$MPV_HOME/scripts`).
+	- `scriptoptfiles`: List of files from source that should be installed
+	  in the script-opts folder (`$MPV_HOME/script-opts`).
+	- `shaderfiles`: List of files from source that should be installed in
+	  the shaders folder (`$MPV_HOME/shaders`).
+	- `fontfiles`: List of files from source that should be installed in
+	  the fonts folder (`$MPV_HOME/fonts`).
+	- `executeablefiles`: List of executeable files from source that should
+	  be installed (user queried, defaults to `~/bin`).
 	- `install-notes`: Text that will be displayed after install.
+- For a more detailed description of how to add the installation instructions
+  of a script to the mpv script directory, see [here](HOWTO_ADD_INSTALL_INSTRUCTIONS.md).
 - The directory is initially created by scraping the [wiki page](https://github.com/mpv-player/mpv/wiki/User-Scripts). This is done by
   `scrapewiki.py` – in the future the directory should be updated directly and
   the scraping script should therefore become obsolete. Maybe it can be
@@ -66,9 +76,9 @@ Information and open a PR.
 
 There's a lot to do – please help!
 - Fill the install introductions for all tools
+- Create formal format specification
 - Add further fields: `screenshot`, `deprecated`, `superseededby`, …
 - Add more install methods: `tar`, `url`, `hg`, …
-- Add support for other file types then scripts: `shaders`, `config`, …
 - Set up an automatic update of the star counts
 - Improve the web version
 - Tell the world!

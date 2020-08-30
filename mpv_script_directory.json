@@ -2866,5 +2866,27 @@
         "os": [],
         "stars": 76,
         "sharedrepo": false
+    },
+    "github:CogentRedTester/mpv-search-page": {
+        "name": "search-page",
+        "url": "https://github.com/CogentRedTester/mpv-search-page",
+        "type": "lua script",
+        "git": "https://github.com/CogentRedTester/mpv-search-page",
+        "gitdir": "github/CogentRedTester/mpv-search-page",
+        "desc": "Allows users to search for keybinds, commands, options, and properties, and have the results display on the OSD. Good for reminding oneself about   forgotten keybinds without leaving the player.",
+        "os": [],
+        "stars": 4,
+        "sharedrepo": false
+    },
+    "github:ehoneyse/mpv-open-anilist-page": {
+        "name": "open-anilist-page",
+        "url": "https://github.com/ehoneyse/mpv-open-anilist-page",
+        "type": "lua script",
+        "git": "https://github.com/ehoneyse/mpv-open-anilist-page",
+        "gitdir": "github/ehoneyse/mpv-open-anilist-page",
+        "desc": "Opens the Anilist page that corresponds to the currently playing (anime) file.",
+        "os": [],
+        "stars": 0,
+        "sharedrepo": false
     }
 }

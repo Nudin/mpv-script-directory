@@ -84,18 +84,16 @@ for entry in elements:
     match = re_github.fullmatch(url)
     if match:
         groups = match.groups()
-        script["install"] = "git-fixme"
-        script["git"] = "https://github.com/%s/%s" % groups[0:2]
-        script["gitdir"] = "github/%s/%s" % groups[0:2]
+        script["receiving_url"] = "https://github.com/%s/%s" % groups[0:2]
+        script["install_dir"] = "github/%s/%s" % groups[0:2]
         if groups[2] and type == "lua script" and groups[2][-4:] == ".lua":
             script["scriptfiles"] = [groups[2]]
     else:
         match = re_gitlab.fullmatch(url)
         if match:
             groups = match.groups()
-            script["install"] = "git-fixme"
-            script["git"] = "https://gitlab.com/%s/%s" % groups[0:2]
-            script["gitdir"] = "gitlab/%s/%s" % groups[0:2]
+            script["receiving_url"] = "https://gitlab.com/%s/%s" % groups[0:2]
+            script["install_dir"] = "gitlab/%s/%s" % groups[0:2]
             if groups[2] and type == "lua script" and groups[2][-4:] == ".lua":
                 script["scriptfiles"] = [groups[2]]
     p = entry.find("p")

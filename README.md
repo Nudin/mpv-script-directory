@@ -32,9 +32,9 @@ the known tools with their metadata. The Information is encoded as JSON:
 	  interpreted as platform independent.
 	- `stars`: The number of stars the project's repository has on github/gitlab
 	- `sharedrepo`: Boolean, `True` if the tool shares a repository with other tools
-	- `install`: Install method, currently only `git` is supported by mplug
-	- `git`: If `install` is `git` this should be set to the cloneable url
-	- `gitdir`: If `install` is `git`: Name for local directory to clone
+	- `install`: Install method, currently `git`, `url` and `tar` are supported by mplug
+	- `receiving_url`: The url that is used to download the script.
+	- `install_dir`: Name for local directory in that the script will be installed.
 	  the git repo in. Needed to support scripts sharing a git repo.
 	- `scriptfiles`: List of files from source that should be installed in
 	  the script folder (`$MPV_HOME/scripts`).
@@ -78,7 +78,6 @@ There's a lot to do – please help!
 - Fill the install introductions for all tools
 - Create formal format specification
 - Add further fields: `screenshot`, `deprecated`, `superseededby`, …
-- Add more install methods: `tar`, `url`, `hg`, …
 - Set up an automatic update of the star counts
 - Improve the web version
 - Tell the world!

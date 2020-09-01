@@ -16,20 +16,22 @@ Currently the only method supported in mplug is `git`.
 - `url`: Download a single file.
 
 # Install source
-Specifies the source to obtain the plugin from.
+The property `receiving_url` must specify the source to obtain the plugin from.
 
-- If `install` is `git` a property called `git` should be set to the cloneable url.
-- If `install` is `tar` a property called `script_url` should be set to url of the tarball
-- If `install` is `url` a property called `script_url` should be set to url of the script.
+- If `install` is `git` this is the cloneable url.
+- If `install` is `tar` this is url of the tarball
+- If `install` is `url` this is url of the script.
 
-# Installation directory or filename
-Specifies the name of the folder that contains the downloaded content or the
-downloaded file. This is needed so that if multiple plugins share a git repo or
-tarball this must not be downloaded multiple times.
+# Installation directory and filename
+`install_dir` specifies the name of the folder that contains the downloaded
+content. This is needed so that if multiple plugins share a git repo or tarball
+this must not be downloaded multiple times.
+If `install` is `url`, a second field `filename` must specify the name of the
+file that will be downloaded.
 
-- If `install` is `git` the property `gitdir` should specify the name for local
-  directory to clone the git repo in. For repositories on github/gitlab/similar
-  this should follow the form `github\username\reponame`.
+- For repositories on github/gitlab/similar `install_dir` should follow the form
+  `github\username\reponame`.
+- For others choose a unique directory name.
 
 # Files to install
 This Specifies which files from the downloaded should be installed where.
@@ -38,6 +40,7 @@ This Specifies which files from the downloaded should be installed where.
 - `scriptoptfiles`: List of files that should be installed in the script-opts folder.
 - `shaderfiles`: List of files that should be installed in the shaders folder
 - `fontfiles`: List of files that should be installed in the fonts folder
+- `ladspafiles`: List of ladspa-files that should be installed.
 - `executeablefiles`: List of executeable files that should be installed (user
   queried, defaults to `~/bin`).
 

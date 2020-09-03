@@ -764,7 +764,7 @@
         "scriptfiles": ["find_subtitles.lua"],
         "install-notes": "subliminal (version 1.0.1+) must be installed and in PATH.",
         "desc": "(Down)load subtitles with subliminal.",
-        "os": ["linux"],
+        "os": ["Linux"],
         "stars": 18,
         "sharedrepo": false
     },

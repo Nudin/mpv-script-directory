@@ -2888,5 +2888,19 @@
         "os": [],
         "stars": 0,
         "sharedrepo": false
+    },
+    "github:werman/noise-suppression-for-voice": {
+        "name": "noise-suppression-for-voice",
+        "url": "https://github.com/werman/noise-suppression-for-voice",
+        "type": "other",
+        "desc": "A real-time audio noise suppression plugin for voice based on Xiph's RNNoise.",
+        "os": ["Linux", "Windows"],
+        "install": "tar",
+        "receiving_url": "https://github.com/werman/noise-suppression-for-voice/releases/download/v0.9/{{os}}_rnnoise_bin_{{arch-short}}.tar.gz",
+        "install_dir": "github/werman/noise-suppression-for-voice",
+        "start": 592,
+        "sharedrepo": false,
+        "ladspafiles": ["bin/ladspa/librnnoise_ladspa.{{shared-lib-ext}}"],
+        "install-notes": "Add somthing like the following to your input.conf, to use it:\nN af toggle lavfi=\"ladspa=rnnoise:noise_suppressor\""
     }
 }

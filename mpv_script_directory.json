@@ -2898,9 +2898,28 @@
         "install": "tar",
         "receiving_url": "https://github.com/werman/noise-suppression-for-voice/releases/download/v0.9/{{os}}_rnnoise_bin_{{arch-short}}.tar.gz",
         "install_dir": "github/werman/noise-suppression-for-voice",
-        "start": 592,
+        "stars": 592,
         "sharedrepo": false,
         "ladspafiles": ["bin/ladspa/librnnoise_ladspa.{{shared-lib-ext}}"],
         "install-notes": "Add somthing like the following to your input.conf, to use it:\nN af toggle lavfi=\"ladspa=rnnoise:noise_suppressor\""
+    },
+    "github:ytdl-org/youtube-dl": {
+        "name": "youtube-dl",
+        "url": "https://github.com/ytdl-org/youtube-dl",
+        "install": "url",
+        "os": [
+            "Linux",
+            "Mac",
+            "Windows"
+        ],
+        "type": "other",
+        "desc": "Watch or download videos from YouTube.com and other video sites.",
+        "receiving_url": "https://yt-dl.org/downloads/latest/youtube-dl.{{executable-ext}}",
+        "filename": "youtube-dl.{{executable-ext}}",
+        "exefiles": [
+            "youtube-dl.{{executable-ext}}"
+        ],
+        "install_dir": "github/werman/noise-suppression-for-voice",
+        "sharedrepo": false
     }
 }

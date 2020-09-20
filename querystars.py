@@ -34,29 +34,30 @@ def getGithubStars(owner, repo, _):
 def updatestars(allscripts):
     for script in allscripts.values():
         stars = None
-        match = re_github.fullmatch(script["url"])
+        url = script["url"] or ""
+        match = re_github.fullmatch(url)
         if match:
             stars = getGithubStars(*match.groups())
             if stars is None:
-                print("dead url", script["url"])
+                print("dead url", url)
                 script["url"] = None
                 continue
             shared = match.groups()[2] is not None
-        elif re_gist.match(script["url"]):
+        elif re_gist.match(url):
             # Github API is missing a possibility to query for stars of a gist
-            page = requests.get(script["url"])
+            page = requests.get(url)
             if page.status_code == 404:
-                print("dead url", script["url"])
+                print("dead url", url)
                 script["url"] = None
                 continue
             soup = BeautifulSoup(page.content, "html.parser")
             stars = int(soup.select_one(".social-count").text.strip())
             shared = False
-        elif match := re_gitlab.match(script["url"]):
+        elif match := re_gitlab.match(url):
             # TODO use gitlab api instead – if possible
-            page = requests.get(script["url"])
+            page = requests.get(url)
             if page.status_code == 404:
-                print("dead url", script["url"])
+                print("dead url", url)
                 script["url"] = None
                 continue
             soup = BeautifulSoup(page.content, "html.parser")

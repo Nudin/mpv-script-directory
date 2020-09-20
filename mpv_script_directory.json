@@ -7,7 +7,7 @@
         "install_dir": "github/VideoPlayerCode/mpv-tools",
         "desc": "Advanced, modular media browser, file manager and playlist manager for mpv.",
         "os": [],
-        "stars": 76,
+        "stars": 79,
         "sharedrepo": false
     },
     "github:VideoPlayerCode/mpv-tools/Colorbox": {
@@ -18,7 +18,7 @@
         "install_dir": "github/VideoPlayerCode/mpv-tools",
         "desc": "Apply color correction presets.",
         "os": [],
-        "stars": 76,
+        "stars": 79,
         "sharedrepo": false
     },
     "github:VideoPlayerCode/mpv-tools/Gallerizer": {
@@ -29,7 +29,7 @@
         "install_dir": "github/VideoPlayerCode/mpv-tools",
         "desc": "Image gallery autoloader for mpv.",
         "os": [],
-        "stars": 76,
+        "stars": 79,
         "sharedrepo": false
     },
     "github:VideoPlayerCode/mpv-tools/Leapfrog": {
@@ -40,7 +40,7 @@
         "install_dir": "github/VideoPlayerCode/mpv-tools",
         "desc": "Effortlessly jump through your playlist, with your own custom jump size and direction, including the ability to jump randomly. Excellent when queuing lots of images and using mpv as an image viewer.",
         "os": [],
-        "stars": 76,
+        "stars": 79,
         "sharedrepo": false
     },
     "github:AssrtOSS/mpv-assrt": {
@@ -51,7 +51,7 @@
         "install_dir": "github/AssrtOSS/mpv-assrt",
         "desc": "Download subtitles from assrt.net, with interactive OSD menu.",
         "os": [],
-        "stars": 48,
+        "stars": 49,
         "sharedrepo": false
     },
     "github:zc62/mpv-scripts/screenshot-to-clipboard.js": {
@@ -73,11 +73,13 @@
         "type": "javascript",
         "install": "git",
         "receiving_url": "https://github.com/stax76/mpv.net",
-        "scriptfiles": ["scripts/javascript/seek-show-position.js"],
+        "scriptfiles": [
+            "scripts/javascript/seek-show-position.js"
+        ],
         "install_dir": "github/stax76/mpv.net",
         "desc": "Shows the position and duration when seeking formatted as 70:00 / 80:00 instead the built in 01:10:00 / 01:20:00.",
         "os": [],
-        "stars": 531,
+        "stars": 563,
         "sharedrepo": true
     },
     "github:Arieleg/mpv-takeSsSequence": {
@@ -87,7 +89,9 @@
         "receiving_url": "https://github.com/Arieleg/mpv-takeSsSequence",
         "install_dir": "github/Arieleg/mpv-takeSsSequence",
         "desc": "Take a sequence of equispaced screenshots.",
-        "os": []
+        "os": [],
+        "stars": 1,
+        "sharedrepo": false
     },
     "www.npmjs.com:mpv-script": {
         "name": "TypeScript definitions (for developers)",
@@ -104,7 +108,7 @@
         "install_dir": "github/VideoPlayerCode/mpv-tools",
         "desc": "Tons of pre-written, open source JavaScript modules which helps you rapidly create your own JS user scripts (including a very helpful script config system based on mpv's Lua mp.options API). All modules are free to use (and extend) in your own scripts!",
         "os": [],
-        "stars": 76,
+        "stars": 79,
         "sharedrepo": true
     },
     "github:mrxdst/webtorrent-mpv-hook": {
@@ -115,7 +119,7 @@
         "install_dir": "github/mrxdst/webtorrent-mpv-hook",
         "desc": "Adds a hook that allows mpv to stream torrents. It also provides a osd overlay to show info/progress.",
         "os": [],
-        "stars": 3,
+        "stars": 5,
         "sharedrepo": false
     },
     "github:mpv-player/mpv/acompressor.lua": {
@@ -130,7 +134,7 @@
         ],
         "desc": "Dynamic range compressor using acompressor ffmpeg filter with controls to dynamically adjust parameters.",
         "os": [],
-        "stars": 12762,
+        "stars": 13009,
         "sharedrepo": true
     },
     "github:AN3223/dotfiles/always-play-on-startup.lua": {
@@ -159,7 +163,7 @@
         ],
         "desc": "Port of mpv's balance property to FFmpeg lavfi pan filter.",
         "os": [],
-        "stars": 51,
+        "stars": 55,
         "sharedrepo": true
     },
     "github:fbriere/mpv-scripts/audio-file-keys.lua": {
@@ -189,7 +193,7 @@
         ],
         "desc": "Automatically crop the video by using lavfi's cropdetect filter to detect black bars.",
         "os": [],
-        "stars": 12762,
+        "stars": 13009,
         "sharedrepo": true
     },
     "github:mpv-player/mpv/autodeint.lua": {
@@ -204,7 +208,7 @@
         ],
         "desc": "Automatically deinterlace the video by using lavfi's idet filter to detect interlaced content.",
         "os": [],
-        "stars": 12762,
+        "stars": 13009,
         "sharedrepo": true
     },
     "github:mpv-player/mpv/autoload.lua": {
@@ -219,7 +223,7 @@
         ],
         "desc": "Automatically load playlist entries before and after the currently playing file, by scanning the directory.",
         "os": [],
-        "stars": 12762,
+        "stars": 13009,
         "sharedrepo": true
     },
     "github:zc62/mpv-scripts/autoloop.lua": {
@@ -249,7 +253,7 @@
         ],
         "desc": "Automatically apply profiles based on predicates written as Lua expressions.",
         "os": [],
-        "stars": 51,
+        "stars": 55,
         "sharedrepo": true
     },
     "github:AN3223/dotfiles/auto-save-state.lua": {
@@ -273,7 +277,7 @@
         "type": "lua script",
         "desc": "Periodically saves \"watch later\" data during playback, rather than only saving on quit.",
         "os": [],
-        "stars": 14,
+        "stars": 15,
         "sharedrepo": false
     },
     "github:kevinlekiller/mpv_scripts/autospeed": {
@@ -320,7 +324,7 @@
             "Windows",
             "Mac"
         ],
-        "stars": 45,
+        "stars": 46,
         "sharedrepo": false
     },
     "github:vayan/autosub-mpv": {
@@ -346,7 +350,7 @@
         "install_dir": "github/joaquintorres/autosubsync-mpv",
         "desc": "Automatically sync subtitles using ffsubsync.",
         "os": [],
-        "stars": 3,
+        "stars": 5,
         "sharedrepo": false
     },
     "gist:Hakkin/4f978a5c87c31f7fe3ae": {
@@ -355,7 +359,7 @@
         "type": "lua script",
         "desc": "(update)\nLoads the next or previous playlist entry if there are no more chapters in the seek direction.",
         "os": [],
-        "stars": 6,
+        "stars": 7,
         "sharedrepo": false
     },
     "github:occivink/mpv-scripts#blur-edgeslua": {
@@ -367,10 +371,14 @@
         "install_dir": "github/occivink/mpv-scripts",
         "desc": "Replace black bars with a blurry copy of the video",
         "os": [],
-        "scriptfiles": ["scripts/blur-edges.lua"],
-        "scriptoptfiles": ["script-opts/blur_edges.conf"],
+        "scriptfiles": [
+            "scripts/blur-edges.lua"
+        ],
+        "scriptoptfiles": [
+            "script-opts/blur_edges.conf"
+        ],
         "install-notes": "The script defines a toggle-blur command that you can bind.",
-        "stars": 133,
+        "stars": 138,
         "sharedrepo": false
     },
     "github:NurioHin/mpv-bookmarker": {
@@ -381,7 +389,7 @@
         "install_dir": "github/NurioHin/mpv-bookmarker",
         "desc": "A bookmarker menu to manage all your bookmarks in MPV, based on mpv-bookmarker but with a menu",
         "os": [],
-        "stars": 10,
+        "stars": 12,
         "sharedrepo": false
     },
     "github:sorayuki-winter/mpv-plugin-bookmark": {
@@ -392,7 +400,7 @@
         "install_dir": "github/sorayuki-winter/mpv-plugin-bookmark",
         "desc": "Record and resume last play in current playing folder",
         "os": [],
-        "stars": 6,
+        "stars": 7,
         "sharedrepo": false
     },
     "gist:bitingsock/1e7ef04a151963b38e347a723d7e3201": {
@@ -401,7 +409,7 @@
         "type": "lua script",
         "desc": "A set of keybindings using a modifier (Shift or Ctrl) and the function keys (F8-F12) to can adjust the mixing level of surround channels on the fly.",
         "os": [],
-        "stars": 1,
+        "stars": 2,
         "sharedrepo": false
     },
     "github:po5/chapterskip": {
@@ -412,7 +420,7 @@
         "install_dir": "github/po5/chapterskip",
         "desc": "Automatically skip chapters based on title.",
         "os": [],
-        "stars": 3,
+        "stars": 5,
         "sharedrepo": false
     },
     "github:Ares-0/mpv-composition-guides": {
@@ -479,7 +487,7 @@
         "install_dir": "github/CogentRedTester/mpv-coverart",
         "desc": "Automatically load external music cover art",
         "os": [],
-        "stars": 3,
+        "stars": 4,
         "sharedrepo": false
     },
     "gist:olejorgenb/a5194d9bc183dbe0bfb02aac18fe37f9": {
@@ -499,7 +507,7 @@
         "install_dir": "github/occivink/mpv-scripts",
         "desc": "Crop the video by defining the target rectangle with the cursor",
         "os": [],
-        "stars": 133,
+        "stars": 138,
         "sharedrepo": false
     },
     "gitlab:mozbugbox/mpv-script-mozbugbox/clock": {
@@ -545,7 +553,7 @@
         ],
         "desc": "Cycle between deinterlacing, pullup (IVTC), and both filters off.",
         "os": [],
-        "stars": 12762,
+        "stars": 13009,
         "sharedrepo": true
     },
     "gist:myfreeer/d744c445aa71c0eeb165ca39cf6c0511": {
@@ -554,7 +562,9 @@
         "install": "git",
         "receiving_url": "https://gist.github.com/myfreeer/d744c445aa71c0eeb165ca39cf6c0511",
         "install_dir": "gist/myfreeer/cycle-denoise",
-        "scriptfiles": ["cycle-denoise.lua"],
+        "scriptfiles": [
+            "cycle-denoise.lua"
+        ],
         "type": "lua script",
         "desc": "Cycle between lavfi's denoise filters (press n)",
         "os": [],
@@ -578,7 +588,7 @@
         "install_dir": "github/VideoPlayerCode/mpv-tools",
         "desc": "Intelligently switches mpv's \"keep-open\" behavior based on whether you are running in video-mode or audio-only mode.",
         "os": [],
-        "stars": 76,
+        "stars": 79,
         "sharedrepo": false
     },
     "github:VideoPlayerCode/mpv-tools/cycle-video-rotate": {
@@ -589,7 +599,7 @@
         "install_dir": "github/VideoPlayerCode/mpv-tools",
         "desc": "Allows you to perform video rotation which perfectly cycles through all 360 degrees without any glitches.",
         "os": [],
-        "stars": 76,
+        "stars": 79,
         "sharedrepo": false
     },
     "github:demanuel/dessubdb/mpv.lua": {
@@ -655,7 +665,7 @@
         "install_dir": "github/aidanholm/mpv-easycrop",
         "desc": "Manually crop a video during playback.",
         "os": [],
-        "stars": 38,
+        "stars": 42,
         "sharedrepo": false
     },
     "github:occivink/mpv-scripts#encodelua": {
@@ -667,9 +677,11 @@
         "install_dir": "github/occivink/mpv-scripts",
         "desc": "Re-encode or remux part of the current video. Can also preserve some filters, such as \"crop\".",
         "os": [],
-        "stars": 133,
+        "stars": 138,
         "sharedrepo": false,
-        "scriptfiles": ["scripts/encode.lua"]
+        "scriptfiles": [
+            "scripts/encode.lua"
+        ]
     },
     "gist:avih/41acff712abd32e1f436235388c8b523": {
         "name": "equalizer",
@@ -677,7 +689,7 @@
         "type": "lua script",
         "desc": "5-bands equalizer with colorful display.",
         "os": [],
-        "stars": 17,
+        "stars": 18,
         "sharedrepo": false
     },
     "gitlab:lvml/mpv-plugin-excerpt": {
@@ -729,7 +741,7 @@
         "install_dir": "github/zsugabubus/mpv-fastforward",
         "desc": "Another fast-forward plugin with some added features and a bit more customization options.",
         "os": [],
-        "stars": 6,
+        "stars": 8,
         "sharedrepo": false
     },
     "github:jonniek/mpv-filenavigator": {
@@ -740,7 +752,7 @@
         "install_dir": "github/jonniek/mpv-filenavigator",
         "desc": "Navigate directories and open files from your system.",
         "os": [],
-        "stars": 34,
+        "stars": 36,
         "sharedrepo": false
     },
     "gitlab:mozbugbox/mpv-script-mozbugbox": {
@@ -761,10 +773,14 @@
         "install": "git",
         "receiving_url": "https://github.com/directorscut82/find_subtitles",
         "install_dir": "github/directorscut82/find_subtitles",
-        "scriptfiles": ["find_subtitles.lua"],
+        "scriptfiles": [
+            "find_subtitles.lua"
+        ],
         "install-notes": "subliminal (version 1.0.1+) must be installed and in PATH.",
         "desc": "(Down)load subtitles with subliminal.",
-        "os": ["Linux"],
+        "os": [
+            "Linux"
+        ],
         "stars": 18,
         "sharedrepo": false
     },
@@ -781,7 +797,7 @@
         ],
         "desc": "Linear phase 15-bands equalizer.",
         "os": [],
-        "stars": 53,
+        "stars": 55,
         "sharedrepo": true
     },
     "github:wiiaboo/mpv-scripts/fix-sub-timing.lua": {
@@ -796,7 +812,7 @@
         ],
         "desc": "Compute the correct speed/delay of subtitles by manually synching two points in time.",
         "os": [],
-        "stars": 51,
+        "stars": 55,
         "sharedrepo": true
     },
     "github:AN3223/dotfiles/force-window-profile.lua": {
@@ -876,7 +892,9 @@
         "desc": "Show current and maximum GPU frequencies for GPUs using the DRM stack on Linux.",
         "os": [
             "Linux"
-        ]
+        ],
+        "stars": 1,
+        "sharedrepo": false
     },
     "github:po5/groupwatch_sync": {
         "name": "groupwatch_sync",
@@ -931,7 +949,7 @@
         "install_dir": "github/occivink/mpv-image-viewer",
         "desc": "Pan the current video or image with the cursor.",
         "os": [],
-        "stars": 69,
+        "stars": 79,
         "sharedrepo": false
     },
     "github:occivink/mpv-image-viewer/image-viewer": {
@@ -942,7 +960,7 @@
         "install_dir": "github/occivink/mpv-image-viewer",
         "desc": "Configurations, scripts and tips for using mpv as an image viewer.",
         "os": [],
-        "stars": 69,
+        "stars": 79,
         "sharedrepo": false
     },
     "github:mosquito-byte/mpv-interactive-video": {
@@ -953,7 +971,7 @@
         "install_dir": "github/mosquito-byte/mpv-interactive-video",
         "desc": "Script for watching interactive videos (such as Netflix's Black Mirror: Bandersnatch).",
         "os": [],
-        "stars": 9,
+        "stars": 10,
         "sharedrepo": false
     },
     "github:oltodosel/interSubs": {
@@ -967,7 +985,7 @@
             "Linux",
             "Mac"
         ],
-        "stars": 81,
+        "stars": 83,
         "sharedrepo": false
     },
     "github:l29ah/w3crapcli/mpv-lastfm.lua": {
@@ -982,7 +1000,7 @@
         ],
         "desc": "Sends the information about playing tracks to last.fm, see http://www.last.fm/help/faq?category=99 for more info.",
         "os": [],
-        "stars": 51,
+        "stars": 50,
         "sharedrepo": true
     },
     "github:po5/libass_sub_selector": {
@@ -1004,7 +1022,7 @@
         "install_dir": "github/hdb/mpv-live-filters",
         "desc": "Add, remove or toggle ffmpeg video filters during mpv playback.",
         "os": [],
-        "stars": 11,
+        "stars": 12,
         "sharedrepo": false
     },
     "github:422658476/MPV-EASY-Player/local-language.lua": {
@@ -1019,7 +1037,7 @@
         ],
         "desc": "Let the text displayed by mpv osd become the language you are most familiar with, that is, language localization, such as \u3010volume: 100%\u3011 becomes \u3010\u97f3\u91cf:100%\u3011.",
         "os": [],
-        "stars": 230,
+        "stars": 243,
         "sharedrepo": true
     },
     "github:dodo/lua-mpris": {
@@ -1081,7 +1099,7 @@
         ],
         "desc": "Minesweeper game.",
         "os": [],
-        "stars": 51,
+        "stars": 55,
         "sharedrepo": true
     },
     "github:hoehermann/mpv-mpegts-truncate": {
@@ -1103,7 +1121,7 @@
         "install_dir": "github/Digitalone1/mpv-acestream",
         "desc": "Add AceStream protocol handler to mpv. Let the user open streams by dropping Acestream links into mpv GUI or by passing them as command line argument.",
         "os": [],
-        "stars": 8,
+        "stars": 9,
         "sharedrepo": false
     },
     "github:fatihkaan22/mpv-bluetooth-av-delay": {
@@ -1123,7 +1141,7 @@
         "install_dir": "github/nimatrueway/mpv-bookmark-lua-script",
         "desc": "Bookmark your favorite time on media files",
         "os": [],
-        "stars": 29,
+        "stars": 30,
         "sharedrepo": false
     },
     "github:Samillion/mpv-boxtowide": {
@@ -1143,7 +1161,7 @@
         "install_dir": "github/nmoorthy1/mpv-Change-OSD-Media-Title",
         "desc": "Displays filename, percentage watched, current chapter, and number of frames dropped in the OSD media title and updates it whenever one of the values has changed.",
         "os": [],
-        "stars": 9,
+        "stars": 10,
         "sharedrepo": false
     },
     "github:TheAMM/mpv_crop_script": {
@@ -1154,7 +1172,7 @@
         "install_dir": "github/TheAMM/mpv_crop_script",
         "desc": "Take cropped screenshots directly within mpv, without the need for external dependencies.",
         "os": [],
-        "stars": 59,
+        "stars": 60,
         "sharedrepo": false
     },
     "github:noaione/mpv-discordRPC": {
@@ -1165,7 +1183,7 @@
         "install_dir": "github/noaione/mpv-discordRPC",
         "desc": "Discord RPC integration for mpv using lua-discordRPC as base.",
         "os": [],
-        "stars": 14,
+        "stars": 15,
         "sharedrepo": false
     },
     "github:cniw/mpv-discordRPC": {
@@ -1180,7 +1198,7 @@
             "Windows",
             "Mac"
         ],
-        "stars": 51,
+        "stars": 52,
         "sharedrepo": false
     },
     "github:Kagami/mpv_frame_info": {
@@ -1224,7 +1242,7 @@
         "install_dir": "github/po5/mpv_manager",
         "desc": "User script and shader manager for mpv",
         "os": [],
-        "stars": 7,
+        "stars": 9,
         "sharedrepo": false
     },
     "github:Dudemanguy911/mpv-manga-reader/master": {
@@ -1235,8 +1253,8 @@
         "install_dir": "github/Dudemanguy911/mpv-manga-reader",
         "desc": "Script for using mpv as a manga reader.",
         "os": [],
-        "stars": 15,
-        "sharedrepo": true
+        "stars": 17,
+        "sharedrepo": false
     },
     "github:jgreco/mpv-pdf": {
         "name": "mpv-pdf",
@@ -1249,7 +1267,7 @@
             "Linux",
             "Mac"
         ],
-        "stars": 5,
+        "stars": 6,
         "sharedrepo": false
     },
     "github:po5/mpv_irc": {
@@ -1270,10 +1288,13 @@
         "install": "git",
         "receiving_url": "https://github.com/po5/mpv_sponsorblock",
         "install_dir": "github/po5/mpv_sponsorblock",
-        "scriptfiles": ["sponsorblock.lua", "sponsorblock_shared"],
+        "scriptfiles": [
+            "sponsorblock.lua",
+            "sponsorblock_shared"
+        ],
         "desc": "Script to skip sponsored segments of YouTube videos.",
         "os": [],
-        "stars": 60,
+        "stars": 73,
         "sharedrepo": false
     },
     "github:Samillion/mpv-ytdlautoformat": {
@@ -1294,7 +1315,9 @@
         "receiving_url": "https://github.com/SenneH/mpv2anki",
         "install_dir": "github/SenneH/mpv2anki",
         "desc": "A simple way to add notes to Anki with Audio, screenshots and/or subtitles, with few dependencies.",
-        "os": []
+        "os": [],
+        "stars": 5,
+        "sharedrepo": false
     },
     "github:wis/mpvSockets": {
         "name": "mpvSockets",
@@ -1308,7 +1331,7 @@
             "Windows",
             "Mac"
         ],
-        "stars": 21,
+        "stars": 26,
         "sharedrepo": false
     },
     "github:TheAMM/mpv_sort_script": {
@@ -1319,7 +1342,7 @@
         "install_dir": "github/TheAMM/mpv_sort_script",
         "desc": "Sort files and directories by name, age, size or randomly, recursively or when coming across a directory.",
         "os": [],
-        "stars": 8,
+        "stars": 9,
         "sharedrepo": false
     },
     "github:Kagami/mpv_slicing": {
@@ -1341,7 +1364,7 @@
         "install_dir": "github/snylonue/mpv_slicing_copy",
         "desc": "A fork from mpv_slicing. It will cut fragments of the video in original format instead of RGB",
         "os": [],
-        "stars": 6,
+        "stars": 7,
         "sharedrepo": false
     },
     "github:TheAMM/mpv_thumbnail_script": {
@@ -1352,10 +1375,13 @@
         "receiving_url": "https://github.com/TheAMM/mpv_thumbnail_script",
         "install_dir": "github/TheAMM/mpv_thumbnail_script",
         "desc": "Show preview thumbnails when hovering over the seekbar, without the need for external dependencies.",
-        "scriptfiles": ["mpv_thumbnail_script_server.lua", "mpv_thumbnail_script_client_osc.lua"],
+        "scriptfiles": [
+            "mpv_thumbnail_script_server.lua",
+            "mpv_thumbnail_script_client_osc.lua"
+        ],
         "install-notes": "Note: Because this script replaces the built-in OSC, you will have to set osc=no in your mpv's main config file.\nSee the scripts site for configuration options:\nhttps://github.com/TheAMM/mpv_thumbnail_script",
         "os": [],
-        "stars": 280,
+        "stars": 294,
         "sharedrepo": false
     },
     "github:jgreco/mpv-txt": {
@@ -1369,7 +1395,7 @@
             "Linux",
             "Mac"
         ],
-        "stars": 9,
+        "stars": 10,
         "sharedrepo": false
     },
     "gitlab:derobert/mpv-volnorm": {
@@ -1417,7 +1443,7 @@
         "install_dir": "github/unusualpepe/mpv-multiloop",
         "desc": "Loop over multiple A-B points (and save them for future use)",
         "os": [],
-        "stars": 2,
+        "stars": 3,
         "sharedrepo": false
     },
     "github:AN3223/dotfiles/multisocket.lua": {
@@ -1454,7 +1480,7 @@
         "install_dir": "github/jonniek/mpv-nextfile",
         "desc": "Force opens next or previous file in the currently playing files directory.",
         "os": [],
-        "stars": 21,
+        "stars": 22,
         "sharedrepo": false
     },
     "github:rohieb/mpv-notify": {
@@ -1479,7 +1505,7 @@
             "Linux",
             "Mac"
         ],
-        "stars": 8,
+        "stars": 7,
         "sharedrepo": false
     },
     "github:Akemi/mpv-oled-screensaver": {
@@ -1505,7 +1531,7 @@
         ],
         "desc": "Disables the ontop property when pausing, and enables it again when unpausing the video, if it was disabled. Change it only when the player is not in fullscreen to prevent screen flickering.",
         "os": [],
-        "stars": 12762,
+        "stars": 13009,
         "sharedrepo": true
     },
     "github:kungfubeaner/mpv-ontop-only-while-playing-lua/on_top_only_while_playing.lua": {
@@ -1553,7 +1579,7 @@
         "os": [
             "Windows"
         ],
-        "stars": 13,
+        "stars": 15,
         "sharedrepo": false
     },
     "github:422658476/MPV-EASY-Player/osc-style": {
@@ -1564,7 +1590,7 @@
         "install_dir": "github/422658476/MPV-EASY-Player",
         "desc": "Change the mpv osc to a more beautiful and practical look, which is the osc theme feature, a variety of styles to choose from,this is a tutorial and a preview.",
         "os": [],
-        "stars": 230,
+        "stars": 243,
         "sharedrepo": true
     },
     "github:422658476/MPV-EASY-Player/osd-bar.lua": {
@@ -1579,7 +1605,7 @@
         ],
         "desc": "Always show osd progress bar, with the more beautiful color matching in the configuration file, you can make the osd progress bar display the current progress at the bottom of the window beautifully,this is a preview.",
         "os": [],
-        "stars": 230,
+        "stars": 243,
         "sharedrepo": true
     },
     "github:blue-sky-r/mpv/osd-clock.lua": {
@@ -1594,7 +1620,7 @@
         ],
         "desc": "Periodically shows OSD clock (many configurable options).",
         "os": [],
-        "stars": 11,
+        "stars": 12,
         "sharedrepo": true
     },
     "gist:torque/9dbc69543118347d2e5f43239a7e609a": {
@@ -1618,7 +1644,7 @@
         ],
         "desc": "Pauses the player video when minimizing, and unpauses it when brought up again.",
         "os": [],
-        "stars": 12762,
+        "stars": 13009,
         "sharedrepo": true
     },
     "gist:ekisu/bba287693830055a6bad90081c1ad4e2": {
@@ -1649,7 +1675,7 @@
         "install_dir": "github/noctuid/mpv-webtorrent-hook",
         "desc": "Allows streaming torrents using webtorrent (same as mpv-peerflix-hook but using webtorrent instead). Webtorrent-cli can play in mpv, but this script allows using torrent identifiers as the file argument to mpv or pasting them into the current playlist using one of the pasting scripts listed here.",
         "os": [],
-        "stars": 12,
+        "stars": 14,
         "sharedrepo": false
     },
     "github:d87/mpv-persist-properties": {
@@ -1659,10 +1685,12 @@
         "install": "git",
         "receiving_url": "https://github.com/d87/mpv-persist-properties",
         "install_dir": "github/d87/mpv-persist-properties",
-        "scriptfiles": ["persist-properties.lua"],
+        "scriptfiles": [
+            "persist-properties.lua"
+        ],
         "desc": "Keeps volume and other properties between sessions",
         "os": [],
-        "stars": 14,
+        "stars": 18,
         "sharedrepo": false
     },
     "github:FichteFoll/mpv-scripts/pitchcontrol.lua": {
@@ -1677,7 +1705,7 @@
         ],
         "desc": "Adjusts audio pitch in half-tone steps.",
         "os": [],
-        "stars": 4,
+        "stars": 5,
         "sharedrepo": true
     },
     "github:jonniek/mpv-playlistmanager": {
@@ -1688,7 +1716,7 @@
         "install_dir": "github/jonniek/mpv-playlistmanager",
         "desc": "This script allows you to see and interact with your playlist in an intuitive way.",
         "os": [],
-        "stars": 101,
+        "stars": 105,
         "sharedrepo": false
     },
     "github:422658476/MPV-EASY-Player/playlistnoplayback.lua": {
@@ -1703,7 +1731,7 @@
         ],
         "desc": "If you enable the save play history and progress function, this lua script can solve the problem of automatically jumping to the previous playback progress when playing the next file when playing the playlist, that is, let the playlist always play the next file from the beginning every time. the limitations of this script, please see the comments section in the content.",
         "os": [],
-        "stars": 230,
+        "stars": 243,
         "sharedrepo": true
     },
     "github:occivink/mpv-gallery-view/contact-sheet": {
@@ -1714,7 +1742,7 @@
         "install_dir": "github/occivink/mpv-gallery-view",
         "desc": "Display thumbnails of the current file in the style of a contact sheet",
         "os": [],
-        "stars": 71,
+        "stars": 74,
         "sharedrepo": false
     },
     "github:occivink/mpv-gallery-view/playlist-view": {
@@ -1725,7 +1753,7 @@
         "install_dir": "github/occivink/mpv-gallery-view",
         "desc": "Display and navigate the playlist in a grid view of thumbnails.",
         "os": [],
-        "stars": 71,
+        "stars": 74,
         "sharedrepo": false
     },
     "github:torque/mpv-progressbar": {
@@ -1736,7 +1764,7 @@
         "install_dir": "github/torque/mpv-progressbar",
         "desc": "A minimalistic OSC replacement. It provides a small, unintrusive progress bar that persists at the bottom of the video window.",
         "os": [],
-        "stars": 77,
+        "stars": 79,
         "sharedrepo": false
     },
     "github:CounterPillow/mpv-quack": {
@@ -1747,7 +1775,7 @@
         "install_dir": "github/CounterPillow/mpv-quack",
         "desc": "Temporarily lower the volume after a seek to save your ears from unpleasant sudden volume changes.",
         "os": [],
-        "stars": 3,
+        "stars": 4,
         "sharedrepo": false
     },
     "github:VideoPlayerCode/mpv-tools/multi-command-if": {
@@ -1758,7 +1786,7 @@
         "install_dir": "github/VideoPlayerCode/mpv-tools",
         "desc": "Very powerful conditional logic and multiple action engine for your keybindings, without having to write a single line of code!",
         "os": [],
-        "stars": 76,
+        "stars": 79,
         "sharedrepo": false
     },
     "github:VideoPlayerCode/mpv-tools/quick-scale": {
@@ -1769,7 +1797,7 @@
         "install_dir": "github/VideoPlayerCode/mpv-tools",
         "desc": "Quickly scale the video player to a target size, with full control over target scale and max scale. Helps you effortlessly resize a video to fit on your desktop, or any other video dimensions you need!",
         "os": [],
-        "stars": 76,
+        "stars": 79,
         "sharedrepo": false
     },
     "github:olivierlemoal/mpv-radio-title-script": {
@@ -1791,7 +1819,7 @@
         "install_dir": "github/hacel/mpv-scripts",
         "desc": "Recently played menu using a history log file in config directory, display using a hotkey or automatically when idle.",
         "os": [],
-        "stars": 4,
+        "stars": 5,
         "sharedrepo": false
     },
     "repo.or.cz:redshift_toggle.lua": {
@@ -1818,7 +1846,7 @@
         "install_dir": "github/4e6/mpv-reload",
         "desc": "When an online video is stuck during buffering or got slow CDN source, restarting often helps. This script provides automatic reloading of videos that didn't have buffering progress for some time, keeping the current time position. It also adds Ctrl+r keybinding to reload video manually.",
         "os": [],
-        "stars": 23,
+        "stars": 22,
         "sharedrepo": false
     },
     "github:rossy/mpv-repl": {
@@ -1870,7 +1898,7 @@
         "install_dir": "github/occivink/mpv-scripts",
         "desc": "Seek to an absolute timestamp specified via keyboard input.",
         "os": [],
-        "stars": 133,
+        "stars": 138,
         "sharedrepo": false
     },
     "gist:garoto/920b7456d2bdd8f48aa8e7094a12ce47": {
@@ -1890,7 +1918,7 @@
         "install_dir": "github/yuukidach/mpv-scripts",
         "desc": "Create a history file to store the episode we watched last time. And let us easily jump to the video we watched last time.",
         "os": [],
-        "stars": 4,
+        "stars": 3,
         "sharedrepo": false
     },
     "github:yuukidach/mpv-scripts/show-filename": {
@@ -1901,7 +1929,7 @@
         "install_dir": "github/yuukidach/mpv-scripts",
         "desc": "Show the name of the current playing file.",
         "os": [],
-        "stars": 4,
+        "stars": 3,
         "sharedrepo": false
     },
     "github:blue-sky-r/mpv/show-stream-title.lua": {
@@ -1917,7 +1945,7 @@
         ],
         "desc": "Show OSD stream/channel title when switching the IPTV channels from m3u playlist.",
         "os": [],
-        "stars": 11,
+        "stars": 12,
         "sharedrepo": true
     },
     "github:fhlfibh/simple-loader": {
@@ -1940,8 +1968,11 @@
         "install_dir": "github/open-dynaMIX/simple-mpv-webui",
         "desc": "Web-based remote control.",
         "os": [],
-        "stars": 37,
-        "scriptfiles": ["webui-page", "webui.lua"],
+        "stars": 43,
+        "scriptfiles": [
+            "webui-page",
+            "webui.lua"
+        ],
         "install-notes": "Dependency luasocket is needed.",
         "sharedrepo": false
     },
@@ -1965,7 +1996,9 @@
         "url": "https://gist.github.com/bossen/3cfe86a6cdd61452dbb96865128fb327",
         "receiving_url": "https://gist.github.com/bossen/3cfe86a6cdd61452dbb96865128fb327",
         "install": "git",
-        "scriptfiles": ["skiptofade.lua"],
+        "scriptfiles": [
+            "skiptofade.lua"
+        ],
         "install_dir": "gist/bossen/skiptofade",
         "type": "lua script",
         "desc": "Seeks forward until a black screen appears. Built to skip openings. Uses the lavfi blackdetect filter.",
@@ -2066,7 +2099,7 @@
         "install_dir": "github/zenyd/mpv-scripts",
         "desc": "Provides the ability to delete files being played through mpv",
         "os": [],
-        "stars": 27,
+        "stars": 28,
         "sharedrepo": false
     },
     "github:zenyd/mpv-scripts/speed-transition": {
@@ -2077,7 +2110,7 @@
         "install_dir": "github/zenyd/mpv-scripts",
         "desc": "Increases playback speed if a subtitle will not be displayed soon. Resumes normal speed just before the subtitle shows up.",
         "os": [],
-        "stars": 27,
+        "stars": 28,
         "sharedrepo": false
     },
     "gist:bitingsock/e8a56446ad9c1ed92d872aeb38edf124": {
@@ -2155,7 +2188,7 @@
         ],
         "desc": "Yet another script for downloading subtitles using subliminal. Supports better customization of options, such as easy language selection, authentication for providers that need it, and support for URLs.",
         "os": [],
-        "stars": 51,
+        "stars": 55,
         "sharedrepo": true
     },
     "github:zenyd/mpv-scripts": {
@@ -2170,7 +2203,7 @@
             "Windows",
             "Mac"
         ],
-        "stars": 27,
+        "stars": 28,
         "sharedrepo": false
     },
     "gist.github.com:f2c272fb7c77cf834cf06190737c0006": {
@@ -2194,7 +2227,7 @@
         ],
         "desc": "Extract a part of the video as audio or video with subtitles.",
         "os": [],
-        "stars": 53,
+        "stars": 59,
         "sharedrepo": true
     },
     "github:kelciour/mpv-scripts/sub-bilingual.lua": {
@@ -2209,7 +2242,7 @@
         ],
         "desc": "Generate bilingual subtitles.",
         "os": [],
-        "stars": 53,
+        "stars": 59,
         "sharedrepo": true
     },
     "github:kelciour/mpv-scripts/sub-bookmarks.lua": {
@@ -2224,7 +2257,7 @@
         ],
         "desc": "Save current position and subtitles in .txt file.",
         "os": [],
-        "stars": 53,
+        "stars": 59,
         "sharedrepo": true
     },
     "github:kelciour/mpv-scripts/sub-export.lua": {
@@ -2240,7 +2273,7 @@
         ],
         "desc": "Extract selected subtitles from .mkv file.",
         "os": [],
-        "stars": 53,
+        "stars": 59,
         "sharedrepo": true
     },
     "github:kelciour/mpv-scripts/sub-playback.lua": {
@@ -2255,7 +2288,7 @@
         ],
         "desc": "Add interactive move, i.e. automatically pause at the end of the fragment with option to continue playback or replay it again with or without subtitles.",
         "os": [],
-        "stars": 53,
+        "stars": 59,
         "sharedrepo": true
     },
     "github:kelciour/mpv-scripts/sub-replay.lua": {
@@ -2270,7 +2303,7 @@
         ],
         "desc": "Replay previous sentence.",
         "os": [],
-        "stars": 53,
+        "stars": 59,
         "sharedrepo": true
     },
     "github:kelciour/mpv-scripts/sub-search.lua": {
@@ -2285,7 +2318,7 @@
         ],
         "desc": "Search for phrase in subtitles and skip to it.",
         "os": [],
-        "stars": 53,
+        "stars": 59,
         "sharedrepo": true
     },
     "github:kelciour/mpv-scripts/sub-sentences.lua": {
@@ -2300,7 +2333,7 @@
         ],
         "desc": "Generate subtitles with sentences.",
         "os": [],
-        "stars": 53,
+        "stars": 59,
         "sharedrepo": true
     },
     "github:kelciour/mpv-scripts/sub-voracious.lua": {
@@ -2315,7 +2348,7 @@
         ],
         "desc": "Reading and listening practice.",
         "os": [],
-        "stars": 53,
+        "stars": 59,
         "sharedrepo": true
     },
     "github:kelciour/mpv-scripts/subs2srs.lua": {
@@ -2330,7 +2363,7 @@
         ],
         "desc": "Automatically add new card in Anki with audio, picture and text.",
         "os": [],
-        "stars": 53,
+        "stars": 59,
         "sharedrepo": true
     },
     "github:Argon-/mpv-stats": {
@@ -2341,7 +2374,7 @@
         "install_dir": "github/Argon-/mpv-stats",
         "desc": "Display some statistics about the currently played file on-screen.",
         "os": [],
-        "stars": 187,
+        "stars": 186,
         "sharedrepo": false
     },
     "gitlab:lvml/mpv-plugin-streamcache": {
@@ -2414,7 +2447,7 @@
         "install_dir": "github/aerobounce/trim.lua",
         "desc": "Create a trim of video files without transcoding. Utilizes ffprobe to fetch accurate keyframes.",
         "os": [],
-        "stars": 13,
+        "stars": 15,
         "sharedrepo": false
     },
     "github:oltodosel/mpv-scripts/total_playtime.lua": {
@@ -2477,7 +2510,7 @@
         "os": [
             "Linux"
         ],
-        "stars": 11,
+        "stars": 12,
         "sharedrepo": true
     },
     "github:donmaiq/unseen-playlistmaker": {
@@ -2488,7 +2521,7 @@
         "install_dir": "github/donmaiq/unseen-playlistmaker",
         "desc": "Keeps track of watched files locally, and creates playlists of unwatched files.",
         "os": [],
-        "stars": 4,
+        "stars": 5,
         "sharedrepo": false
     },
     "github:darsain/uosc": {
@@ -2499,7 +2532,7 @@
         "install_dir": "github/darsain/uosc",
         "desc": "Minimalist proximity based UI replacement. Video preview.",
         "os": [],
-        "stars": 63,
+        "stars": 68,
         "sharedrepo": false
     },
     "github:mfcc64/mpv-scripts/visualizer.lua": {
@@ -2514,7 +2547,7 @@
         ],
         "desc": "Various audio visualization.",
         "os": [],
-        "stars": 53,
+        "stars": 55,
         "sharedrepo": true
     },
     "gist:ekisu/04924e899648e84f2e18": {
@@ -2536,7 +2569,7 @@
         "install_dir": "github/dfaker/VR-reversal",
         "desc": "View 3D side-by-side video as a 2D video, allows you to look around and zoom within the video, logs the head motions to a file for later rendering out to a 2D video with ffmpeg.",
         "os": [],
-        "stars": 13,
+        "stars": 15,
         "sharedrepo": false
     },
     "github:ekisu/mpv-webm": {
@@ -2546,10 +2579,12 @@
         "install": "git",
         "receiving_url": "https://github.com/ekisu/mpv-webm",
         "install_dir": "github/ekisu/mpv-webm",
-        "scriptfiles": ["build/webm.lua"],
+        "scriptfiles": [
+            "build/webm.lua"
+        ],
         "desc": "Simple WebM maker for mpv, with no external dependencies.",
         "os": [],
-        "stars": 192,
+        "stars": 204,
         "sharedrepo": false
     },
     "github:AN3223/dotfiles/when-to-loop.lua": {
@@ -2595,7 +2630,7 @@
         "install_dir": "github/jgreco/mpv-youtube-quality",
         "desc": "A menu for changing youtube video quality (ytdl-format) on the fly, as though you were using the web player.",
         "os": [],
-        "stars": 127,
+        "stars": 133,
         "sharedrepo": false
     },
     "github:cvzi/mpv-youtube-upnext": {
@@ -2605,10 +2640,12 @@
         "install": "git",
         "receiving_url": "https://github.com/cvzi/mpv-youtube-upnext",
         "install_dir": "github/cvzi/mpv-youtube-upnext",
-        "scriptfiles": ["youtube-upnext.lua"],
+        "scriptfiles": [
+            "youtube-upnext.lua"
+        ],
         "desc": "A menu for (auto) playing youtube's \"up next\"/recommended videos, that show up on the right side on the website.",
         "os": [],
-        "stars": 3,
+        "stars": 4,
         "sharedrepo": false
     },
     "gist:bitingsock/f9a87ea158035d4a36899b559d611228": {
@@ -2632,7 +2669,7 @@
         ],
         "desc": "Handles commands depending on where the mouse pointer is at, mostly for mouse wheel handling.",
         "os": [],
-        "stars": 51,
+        "stars": 55,
         "sharedrepo": true
     },
     "github:Thann/mpv-abs-screenshot/abs-screenshot.lua": {
@@ -2664,7 +2701,7 @@
         "install_dir": "github/bloc97/Anime4K",
         "desc": "A series of shaders designed to scale and enhance anime. Includes shaders for line sharpening, artefact removal, denoising, upscaling, and more.",
         "os": [],
-        "stars": 11941,
+        "stars": 12120,
         "sharedrepo": false
     },
     "gist:voltmtr/8b4404b4e23129b226b9e64863d3e28b": {
@@ -2725,7 +2762,7 @@
         "install_dir": "github/bjin/mpv-prescalers",
         "desc": "User shaders for prescaling.",
         "os": [],
-        "stars": 165,
+        "stars": 169,
         "sharedrepo": true
     },
     "github:igv/FSRCNN-TensorFlow/releases": {
@@ -2736,7 +2773,7 @@
         "install_dir": "github/igv/FSRCNN-TensorFlow",
         "desc": "Prescaler based on layered convolutional networks.",
         "os": [],
-        "stars": 118,
+        "stars": 121,
         "sharedrepo": true
     },
     "gist:tesu/196db5421559de3e9555d4f9da9d847d": {
@@ -2820,7 +2857,7 @@
         "install_dir": "github/hoyon/mpv-mpris",
         "desc": "Adds support for MPRIS2 protocol",
         "os": [],
-        "stars": 190,
+        "stars": 202,
         "sharedrepo": false
     },
     "github:mrlotfi/mpv-libunity": {
@@ -2853,7 +2890,7 @@
         "install_dir": "github/grmat/play-with",
         "desc": "A WebExtension that can open a video stream on a web page with an external player.",
         "os": [],
-        "stars": 53,
+        "stars": 56,
         "sharedrepo": false
     },
     "github:kelciour/playphrase": {
@@ -2864,7 +2901,7 @@
         "install_dir": "github/kelciour/playphrase",
         "desc": "Search and play phrases from movies and audiobooks.",
         "os": [],
-        "stars": 76,
+        "stars": 80,
         "sharedrepo": false
     },
     "github:CogentRedTester/mpv-search-page": {
@@ -2875,7 +2912,7 @@
         "install_dir": "github/CogentRedTester/mpv-search-page",
         "desc": "Allows users to search for keybinds, commands, options, and properties, and have the results display on the OSD. Good for reminding oneself about   forgotten keybinds without leaving the player.",
         "os": [],
-        "stars": 4,
+        "stars": 6,
         "sharedrepo": false
     },
     "github:ehoneyse/mpv-open-anilist-page": {
@@ -2894,13 +2931,18 @@
         "url": "https://github.com/werman/noise-suppression-for-voice",
         "type": "other",
         "desc": "A real-time audio noise suppression plugin for voice based on Xiph's RNNoise.",
-        "os": ["Linux", "Windows"],
+        "os": [
+            "Linux",
+            "Windows"
+        ],
         "install": "tar",
         "receiving_url": "https://github.com/werman/noise-suppression-for-voice/releases/download/v0.9/{{os}}_rnnoise_bin_{{arch-short}}.tar.gz",
         "install_dir": "github/werman/noise-suppression-for-voice",
-        "stars": 592,
+        "stars": 644,
         "sharedrepo": false,
-        "ladspafiles": ["bin/ladspa/librnnoise_ladspa.{{shared-lib-ext}}"],
+        "ladspafiles": [
+            "bin/ladspa/librnnoise_ladspa.{{shared-lib-ext}}"
+        ],
         "install-notes": "Add somthing like the following to your input.conf, to use it:\nN af toggle lavfi=\"ladspa=rnnoise:noise_suppressor\""
     },
     "github:ytdl-org/youtube-dl": {
@@ -2920,6 +2962,7 @@
             "youtube-dl.{{executable-ext}}"
         ],
         "install_dir": "github/werman/noise-suppression-for-voice",
-        "sharedrepo": false
+        "sharedrepo": false,
+        "stars": 70943
     }
 }

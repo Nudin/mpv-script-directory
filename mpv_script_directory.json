@@ -3,10 +3,28 @@
         "name": "Blackbox",
         "url": "https://github.com/VideoPlayerCode/mpv-tools/",
         "type": "javascript",
+        "install": "git",
         "receiving_url": "https://github.com/VideoPlayerCode/mpv-tools",
         "install_dir": "github/VideoPlayerCode/mpv-tools",
         "desc": "Advanced, modular media browser, file manager and playlist manager for mpv.",
         "os": [],
+        "scriptfiles": [
+            "scripts/Blackbox.js",
+            "scripts/modules.js/AssFormat.js",
+            "scripts/modules.js/MicroUtils.js",
+            "scripts/modules.js/Options.js",
+            "scripts/modules.js/PathIndex.js",
+            "scripts/modules.js/PathTools.js",
+            "scripts/modules.js/PlaylistManager.js",
+            "scripts/modules.js/PseudoRandom.js",
+            "scripts/modules.js/RandomCycle.js",
+            "scripts/modules.js/SelectionMenu.js",
+            "scripts/modules.js/Stack.js"
+        ],
+        "scriptoptfiles": [
+            "script-settings/Blackbox.conf.example"
+        ],
+        "install-notes": "If you want to use any of the JavaScript utilities, you must also download the scripts/modules.js/ folder and place it within your own scripts/ folder, exactly how it's laid out in this project.",
         "stars": 79,
         "sharedrepo": false
     },

@@ -3004,6 +3004,6 @@
         "executablefiles": [
             "ani-man"
         ],
-        "install-notes": "To complete the installation please run:\n\tani-man --setup"
+        "install-notes": "To complete the installation please run:\n\tani-man --setup\nPlease ensure that ~/bin is in your PATH.\nFor help please run:\n\tani-man --help"
     }
 }

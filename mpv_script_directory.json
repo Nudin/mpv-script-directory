@@ -1274,6 +1274,23 @@
         "stars": 17,
         "sharedrepo": false
     },
+    "github:Zren/mpv-osc-tethys": {
+        "name": "mpv-osc-tethys",
+        "url": "https://github.com/Zren/mpv-osc-tethys",
+        "type": "lua script",
+        "install": "git",
+        "receiving_url": "https://github.com/Zren/mpv-osc-tethys",
+        "install_dir": "github/Zren/mpv-osc-tethys",
+        "desc": "An OSC UI replacement for MPV with icons from the bomi video player. Also contains thumbnail preview and a picture-in-picture button.",
+        "scriptfiles": [
+            "mpv_thumbnail_script_server.lua",
+            "osc_tethys.lua"
+        ],
+        "install-notes": "Note: Because this script replaces the built-in OSC, you will have to set osc=no in your mpv's main config file.\nSee the scripts site for configuration options:\nhttps://github.com/Zren/mpv-osc-tethys",
+        "os": [],
+        "stars": 37,
+        "sharedrepo": false
+    },
     "github:jgreco/mpv-pdf": {
         "name": "mpv-pdf",
         "url": "https://github.com/jgreco/mpv-pdf",

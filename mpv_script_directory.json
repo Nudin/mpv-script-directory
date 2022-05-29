@@ -2982,5 +2982,28 @@
         "install_dir": "github/werman/noise-suppression-for-voice",
         "sharedrepo": false,
         "stars": 70943
+    },
+    "github:johndovern/ani-man": {
+        "name": "ani-man",
+        "url": "https://github.com/johndovern/ani-man",
+        "type": "other",
+        "desc": "Offline anime/video progress tracking.",
+        "os": [
+            "Linux"
+        ],
+        "sharedrepo": false,
+        "install": "git",
+        "receiving_url": "https://github.com/johndovern/ani-man.git",
+        "install_dir": "github/johndovern/ani-man",
+        "scriptfiles": [
+            "conf/lua/ani-man.lua"
+        ],
+        "scriptoptfiles": [
+            "conf/lua/ani-man.conf"
+        ],
+        "executablefiles": [
+            "ani-man"
+        ],
+        "install-notes": "To complete the installation please run:\n\tani-man --setup"
     }
 }

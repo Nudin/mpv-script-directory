@@ -3014,5 +3014,20 @@
         ],
         "stars": 2,
         "sharedrepo": false
+    },
+    "github:soystemd/mpv-selectformat": {
+        "name": "mpv-selectformat",
+        "desc": "Presents a menu to select the format (quality) of internet videos.",
+        "url": "https://github.com/soystemd/mpv-selectformat",
+        "type": "lua script",
+        "install": "git",
+        "receiving_url": "https://github.com/soystemd/mpv-selectformat",
+        "install_dir": "github/soystemd/mpv-selectformat",
+        "scriptfiles": [
+            "selectformat.lua"
+        ],
+        "os": [],
+        "stars": 0,
+        "sharedrepo": false
     }
 }

@@ -3000,6 +3000,21 @@
         "sharedrepo": false,
         "stars": 70943
     },
+    "github:b1scoito/mpv-cut": {
+        "name": "mpv-cut",
+        "url": "https://github.com/b1scoito/mpv-cut",
+        "type": "lua script",
+        "receiving_url": "https://github.com/b1scoito/mpv-cut",
+        "install_dir": "github/b1scoito/mpv-cut",
+        "desc": "A video cutting/clipping/slicing script for mpv with support for cutting with smaller file sizes (re-encoding).",
+        "os": [
+            "Linux",
+            "Mac",
+            "Windows"
+        ],
+        "stars": 2,
+        "sharedrepo": false
+    },
     "github:soystemd/mpv-selectformat": {
         "name": "mpv-selectformat",
         "desc": "Presents a menu to select the format (quality) of internet videos.",

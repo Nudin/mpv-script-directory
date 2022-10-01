@@ -3051,5 +3051,15 @@
         ],
         "stars": 5,
         "install-notes": "Install mpv-youtube-search if this doesn't work."
+    },
+    "github:idMysteries/mpv-skip-silence": {
+        "name": "mpv-skip-silence",
+        "url": "https://raw.githubusercontent.com/idMysteries/mpv-skip-silence/main/autoeditor.js",
+        "type": "javascript",
+        "receiving_url": "https://github.com/idMysteries/mpv-skip-silence",
+        "desc": "Playback mode that automatically speedup silent parts. Just press Shift + E",
+        "os": [],
+        "stars": 4,
+        "install-notes": "Dependency: auto-editor (pip install auto-editor)"
     }
 }

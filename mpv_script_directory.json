@@ -1501,10 +1501,14 @@
         "url": "https://github.com/gim-/mpv-plugin-myshows",
         "type": "lua script",
         "receiving_url": "https://github.com/gim-/mpv-plugin-myshows",
+        "install-notes": "Lua dependency luasocket is required.\nAlso you need to manually create a configuration file for this plugin and add your MyShows credentials to it.\nSee README file for details.",
         "install_dir": "github/gim-/mpv-plugin-myshows",
+        "scriptfiles": [
+            "myshows.lua"
+        ],
         "desc": "Marks currently watched episode on MyShows website.",
         "os": [],
-        "stars": 2,
+        "stars": 3,
         "sharedrepo": false
     },
     "github:jonniek/mpv-nextfile": {

@@ -1,4 +1,26 @@
 {
+    "kiwec:cutitout": {
+        "name": "cutitout",
+        "url": "https://git.kiwec.net/cutitout",
+        "type": "lua script",
+        "desc": "Skip silence in videos",
+        "os": [],
+        "stars": 0,
+        "sharedrepo": false,
+        "install": "git",
+        "receiving_url": "https://git.kiwec.net/cutitout",
+        "install_dir": "kiwec/cutitout",
+        "scriptfiles": [
+            "cutitout.lua",
+            "cutitout_shared/main.lua",
+            "cutitout_shared/cutitout.py"
+        ],
+        "scriptoptfiles": [],
+        "shaderfiles": [],
+        "fontfiles": [],
+        "executeablefiles": [],
+        "install-notes": "Press F12 in MPV to toggle silence skipping."
+    },
     "github:VideoPlayerCode/mpv-tools/Blackbox": {
         "name": "Blackbox",
         "url": "https://github.com/VideoPlayerCode/mpv-tools/",

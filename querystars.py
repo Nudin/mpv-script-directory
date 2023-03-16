@@ -7,9 +7,9 @@ import requests
 from bs4 import BeautifulSoup
 from requests.auth import HTTPBasicAuth
 
-import credentials
+from credentials import credentials as c
+credentials = c.require(['user', 'token'])
 
-auth = HTTPBasicAuth(credentials.user, credentials.token)
 re_gitlab = re.compile(
     r"^https://gitlab\.com/([^/]+)/([^/]+)(?:/[^#&]*?)*?([^/#&]+)?/?(?:#.*|&.*)*$"
 )
@@ -20,6 +20,7 @@ re_gist = re.compile(r"^https://gist.github\.com/([^/]+)/(\w+)/?(?:#.*|&.*)*$")
 
 
 def getGithubStars(owner, repo, _):
+    auth = HTTPBasicAuth(credentials.user, credentials.token)
     api_url = f"https://api.github.com/repos/{owner}/{repo}"
     r = requests.get(api_url, auth=auth)
     if r.status_code != 200:

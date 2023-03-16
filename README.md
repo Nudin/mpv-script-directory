@@ -55,6 +55,8 @@ the known tools with their metadata. The Information is encoded as JSON:
   continued to be used to check for divergence from the wiki page.
 - The script `querystars.py` checks the number of stars the project has, if it
   is hosted on github, github gist or gitlab.com. Other fields are not modified.
+- both scripts need ~/.credentials.json to retrieve user & classic-acess-token of github api.
+
 
 Usage
 =====

@@ -1,0 +1,3 @@
+credentials
+bs4
+requests

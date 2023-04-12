@@ -1,4 +1,19 @@
 {
+    "github:Sagnac/streamsave": {
+        "name": "streamsave",
+        "url": "https://github.com/Sagnac/streamsave",
+        "type": "lua script",
+        "desc": "Script aimed at saving live streams and clipping online videos without encoding.",
+        "os": [],
+        "stars": 35,
+        "sharedrepo": false,
+        "install": "git",
+        "receiving_url": "https://github.com/Sagnac/streamsave",
+        "install_dir": "github/Sagnac/streamsave",
+        "scriptfiles": [
+            "streamsave.lua"
+        ]
+    },
     "kiwec:cutitout": {
         "name": "cutitout",
         "url": "https://git.kiwec.net/cutitout",

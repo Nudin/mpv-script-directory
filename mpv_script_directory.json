@@ -2600,15 +2600,22 @@
         "stars": 5,
         "sharedrepo": false
     },
-    "github:darsain/uosc": {
+    "github:tomasklaen/uosc": {
         "name": "uosc",
-        "url": "https://github.com/darsain/uosc",
+        "url": "https://github.com/tomasklaen/uosc",
         "type": "lua script",
-        "receiving_url": "https://github.com/darsain/uosc",
-        "install_dir": "github/darsain/uosc",
-        "desc": "Minimalist proximity based UI replacement. Video preview.",
+        "receiving_url": "https://github.com/tomasklaen/uosc",
+        "install_dir": "github/tomasklaen/uosc",
+        "scriptfiles": [
+            "scripts/uosc.lua"
+        ],
+        "fontfiles": [
+            "fonts/uosc_icons.otf",
+            "fonts/uosc_textures.ttf"
+        ],
+        "desc": "Feature-rich minimalist proximity-based UI replacement.",
         "os": [],
-        "stars": 68,
+        "stars": 295,
         "sharedrepo": false
     },
     "github:mfcc64/mpv-scripts/visualizer.lua": {

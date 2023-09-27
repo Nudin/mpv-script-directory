@@ -2724,6 +2724,24 @@
         "stars": 4,
         "sharedrepo": false
     },
+    "github:cvzi/mpv-youtube-download": {
+        "name": "youtube-download",
+        "url": "https://github.com/cvzi/mpv-youtube-download",
+        "type": "lua script",
+        "install": "git",
+        "receiving_url": "https://github.com/cvzi/mpv-youtube-download",
+        "install_dir": "github/cvzi/mpv-youtube-download",
+        "scriptfiles": [
+            "youtube-download.lua"
+        ],
+        "scriptoptfiles": [
+            "youtube-download.conf"
+        ],
+        "desc": "Download youtube audio and video with one key press",
+        "os": [],
+        "stars": 55,
+        "sharedrepo": false
+    },
     "gist:bitingsock/f9a87ea158035d4a36899b559d611228": {
         "name": "ytdl prefetch resolver",
         "url": "https://gist.github.com/bitingsock/f9a87ea158035d4a36899b559d611228",

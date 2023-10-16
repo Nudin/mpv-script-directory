@@ -3075,23 +3075,11 @@
         "name": "mpv-youtube-search",
         "url": "https://raw.githubusercontent.com/rozari0/mpv-youtube-search/master/youtube-search.lua",
         "type": "lua script",
-        "desc": "Search youtube video from mpv.",
+        "desc": "Search youtube video from mpv using youtube-dl/yt-dlp.",
         "os": [
             "Linux"
         ],
-        "stars": 5,
-        "install-notes": "Install mpv-youtube-search-new if this doesn't work."
-    },
-    "github:rozari0/mpv-youtube-sEarch": {
-        "name": "mpv-youtube-search",
-        "url": "https://raw.githubusercontent.com/rozari0/mpv-youtube-search/master/youtube-search-for-newer-lua.lua",
-        "type": "lua script",
-        "desc": "Search youtube video from mpv.",
-        "os": [
-            "Linux"
-        ],
-        "stars": 5,
-        "install-notes": "Install mpv-youtube-search if this doesn't work."
+        "stars": 9,
     },
     "github:idMysteries/mpv-skip-silence": {
         "name": "mpv-skip-silence",

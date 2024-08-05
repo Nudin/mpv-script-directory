@@ -3095,8 +3095,8 @@
     },
     "github:idMysteries/mpv-skip-silence": {
         "name": "mpv-skip-silence",
-        "url": "https://raw.githubusercontent.com/idMysteries/mpv-skip-silence/main/autoeditor.js",
-        "type": "javascript",
+        "url": "https://raw.githubusercontent.com/idMysteries/mpv-skip-silence/main/autoeditor.lua",
+        "type": "lua script",
         "receiving_url": "https://github.com/idMysteries/mpv-skip-silence",
         "desc": "Playback mode that automatically speedup silent parts. Just press Shift + E",
         "os": [],

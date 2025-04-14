@@ -3102,12 +3102,5 @@
         "os": [],
         "stars": 4,
         "install-notes": "Dependency: auto-editor (pip install auto-editor)"
-    },
-    {
-      "name": "Notify",
-      "description": "Shows notifications with metadata and cover art in MPV using inference models",
-      "author": "teraflops",
-      "url": "https://gitlab.com/teraflops/mpvcovergrabber",
-      "tags": ["notifications", "audio", "video", "metadata"]
     }
 }

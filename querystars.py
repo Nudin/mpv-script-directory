@@ -2,6 +2,7 @@
 import json
 import os
 import re
+from functools import lru_cache
 from pprint import pprint
 
 import requests
@@ -31,6 +32,7 @@ re_github = re.compile(
 re_gist = re.compile(r"^https://gist.github\.com/([^/]+)/(\w+)/?(?:#.*|&.*)*$")
 
 
+@lru_cache(maxsize=128)
 def getGithubStars(owner, repo, _):
     auth = HTTPBasicAuth(credentials.user, credentials.token)
     api_url = f"https://api.github.com/repos/{owner}/{repo}"
@@ -64,20 +66,21 @@ def updatestars(allscripts):
                 script["url"] = None
                 continue
             soup = BeautifulSoup(page.content, "html.parser")
-            stars = int(soup.select_one(".social-count").text.strip())
+            stars = int(soup.select_one("#gist-star-button .Counter").text.strip())
             shared = False
-        elif match := re_gitlab.match(url):
-            # TODO use gitlab api instead – if possible
-            page = requests.get(url)
-            if page.status_code == 404:
-                print("dead url", url)
-                script["url"] = None
-                continue
-            soup = BeautifulSoup(page.content, "html.parser")
-            stars = int(soup.select_one(".star-count").text.strip())
-            shared = match.groups()[2] is not None
+        # Scraping gitlab.com doen't work anymore without javascript
+        # TODO use gitlab api instead (if possible)
+        # elif match := re_gitlab.match(url):
+        #    page = requests.get(url)
+        #    if page.status_code == 404:
+        #        print("dead url", url)
+        #        script["url"] = None
+        #        continue
+        #    soup = BeautifulSoup(page.content, "html.parser")
+        #    stars = int(soup.select_one(".star-count").text.strip())
+        #    shared = match.groups()[2] is not None
         if stars:
-            print("got stars:", stars, shared)
+            print("got stars:", stars, shared, url)
             script["stars"] = stars
             script["sharedrepo"] = shared
     return allscripts

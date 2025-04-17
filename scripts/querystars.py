@@ -14,10 +14,12 @@ from requests.auth import HTTPBasicAuth
 try:
     import credentials
 except ImportError:
-    credentials = object()
-    credentials.user = None
-    # Fall back to env variable GITHUB_TOKEN
-    credentials.token = os.getenv("GITHUB_TOKEN")
+
+    class credentials:
+        user = None
+        # Fall back to env variable GITHUB_TOKEN
+        token = os.getenv("GITHUB_TOKEN")
+
 
 # This script queries the Github API for the number of stars of a repository
 # and updates the mpv_script_directory.json file accordingly.

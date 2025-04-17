@@ -33,7 +33,7 @@
         "scriptoptfiles": [],
         "shaderfiles": [],
         "fontfiles": [],
-        "executeablefiles": [],
+        "exefiles": [],
         "install-notes": "Press F12 in MPV to toggle silence skipping."
     },
     "github:VideoPlayerCode/mpv-tools/Blackbox": {
@@ -2791,14 +2791,6 @@
         "stars": 3,
         "sharedrepo": true
     },
-    "github:devnikor/mpv-conf/addfile.lua": {
-        "name": "addfile",
-        "url": null,
-        "type": "lua script",
-        "install": "broken",
-        "desc": "(OS X) Add subtitle or audio track to playing video file",
-        "os": []
-    },
     "github:bloc97/Anime4K": {
         "name": "Anime4K",
         "url": "https://github.com/bloc97/Anime4K",
@@ -2899,13 +2891,6 @@
         "os": [],
         "stars": 10,
         "sharedrepo": false
-    },
-    "gist:benzrf/c9909aee70e3656895820f20ac395956": {
-        "name": "Nonlinear stretch",
-        "url": null,
-        "type": "user shader",
-        "desc": "Non-linear stretch scaling. use with --no-keepaspect.",
-        "os": []
     },
     "gist:bjin/33ffbc0fbdbc00aefa21b2e44bbd27cd": {
         "name": "lensfix",

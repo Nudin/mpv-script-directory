@@ -1,7 +1,7 @@
 {
     "github:Sagnac/streamsave": {
         "name": "streamsave",
-        "url": null,
+        "url": "https://github.com/Sagnac/streamsave",
         "type": "lua script",
         "desc": "Script aimed at saving live streams and clipping online videos without encoding.",
         "os": [],
@@ -38,7 +38,7 @@
     },
     "github:VideoPlayerCode/mpv-tools/Blackbox": {
         "name": "Blackbox",
-        "url": null,
+        "url": "https://github.com/VideoPlayerCode/mpv-tools/",
         "type": "javascript",
         "install": "git",
         "receiving_url": "https://github.com/VideoPlayerCode/mpv-tools",
@@ -67,7 +67,7 @@
     },
     "github:VideoPlayerCode/mpv-tools/Colorbox": {
         "name": "Colorbox",
-        "url": null,
+        "url": "https://github.com/VideoPlayerCode/mpv-tools/",
         "type": "javascript",
         "receiving_url": "https://github.com/VideoPlayerCode/mpv-tools",
         "install_dir": "github/VideoPlayerCode/mpv-tools",
@@ -78,7 +78,7 @@
     },
     "github:VideoPlayerCode/mpv-tools/Gallerizer": {
         "name": "Gallerizer",
-        "url": null,
+        "url": "https://github.com/VideoPlayerCode/mpv-tools/",
         "type": "javascript",
         "receiving_url": "https://github.com/VideoPlayerCode/mpv-tools",
         "install_dir": "github/VideoPlayerCode/mpv-tools",
@@ -89,7 +89,7 @@
     },
     "github:VideoPlayerCode/mpv-tools/Leapfrog": {
         "name": "Leapfrog",
-        "url": null,
+        "url": "https://github.com/VideoPlayerCode/mpv-tools/",
         "type": "javascript",
         "receiving_url": "https://github.com/VideoPlayerCode/mpv-tools",
         "install_dir": "github/VideoPlayerCode/mpv-tools",
@@ -100,7 +100,7 @@
     },
     "github:AssrtOSS/mpv-assrt": {
         "name": "mpv-assrt",
-        "url": null,
+        "url": "https://github.com/AssrtOSS/mpv-assrt",
         "type": "javascript",
         "receiving_url": "https://github.com/AssrtOSS/mpv-assrt",
         "install_dir": "github/AssrtOSS/mpv-assrt",
@@ -111,7 +111,7 @@
     },
     "github:zc62/mpv-scripts/screenshot-to-clipboard.js": {
         "name": "screenshot-to-clipboard",
-        "url": null,
+        "url": "https://github.com/zc62/mpv-scripts/blob/master/screenshot-to-clipboard.js",
         "type": "javascript",
         "receiving_url": "https://github.com/zc62/mpv-scripts",
         "install_dir": "github/zc62/mpv-scripts",
@@ -124,7 +124,7 @@
     },
     "github:stax76/mpv.net/seek-show-position.js": {
         "name": "seek-show-position",
-        "url": null,
+        "url": "https://github.com/stax76/mpv.net/blob/master/scripts/javascript/seek-show-position.js",
         "type": "javascript",
         "install": "git",
         "receiving_url": "https://github.com/stax76/mpv.net",
@@ -139,7 +139,7 @@
     },
     "github:Arieleg/mpv-takeSsSequence": {
         "name": "takeSsSequence",
-        "url": null,
+        "url": "https://github.com/Arieleg/mpv-takeSsSequence",
         "type": "javascript",
         "receiving_url": "https://github.com/Arieleg/mpv-takeSsSequence",
         "install_dir": "github/Arieleg/mpv-takeSsSequence",
@@ -157,7 +157,7 @@
     },
     "github:VideoPlayerCode/mpv-tools/modules.js": {
         "name": "VideoPlayerCode's Modules.js (for developers)",
-        "url": null,
+        "url": "https://github.com/VideoPlayerCode/mpv-tools/tree/master/scripts/modules.js",
         "type": "javascript",
         "receiving_url": "https://github.com/VideoPlayerCode/mpv-tools",
         "install_dir": "github/VideoPlayerCode/mpv-tools",
@@ -168,7 +168,7 @@
     },
     "github:mrxdst/webtorrent-mpv-hook": {
         "name": "webtorrent-mpv-hook",
-        "url": null,
+        "url": "https://github.com/mrxdst/webtorrent-mpv-hook",
         "type": "javascript",
         "receiving_url": "https://github.com/mrxdst/webtorrent-mpv-hook",
         "install_dir": "github/mrxdst/webtorrent-mpv-hook",
@@ -179,7 +179,7 @@
     },
     "github:mpv-player/mpv/acompressor.lua": {
         "name": "acompressor",
-        "url": null,
+        "url": "https://github.com/mpv-player/mpv/blob/master/TOOLS/lua/acompressor.lua",
         "type": "lua script",
         "install": "git",
         "receiving_url": "https://github.com/mpv-player/mpv",
@@ -194,7 +194,7 @@
     },
     "github:AN3223/dotfiles/always-play-on-startup.lua": {
         "name": "always-play-on-startup",
-        "url": null,
+        "url": "https://github.com/AN3223/dotfiles/blob/master/.config/mpv/scripts/always-play-on-startup.lua",
         "type": "lua script",
         "install": "git",
         "receiving_url": "https://github.com/AN3223/dotfiles",
@@ -209,7 +209,7 @@
     },
     "github:wiiaboo/mpv-scripts/audio-balance.lua": {
         "name": "audio-balance",
-        "url": null,
+        "url": "https://github.com/wiiaboo/mpv-scripts/blob/master/audio-balance.lua",
         "type": "lua script",
         "receiving_url": "https://github.com/wiiaboo/mpv-scripts",
         "install_dir": "github/wiiaboo/mpv-scripts",
@@ -223,7 +223,7 @@
     },
     "github:fbriere/mpv-scripts/audio-file-keys.lua": {
         "name": "audio-file-keys",
-        "url": null,
+        "url": "https://github.com/fbriere/mpv-scripts/blob/master/scripts/audio-file-keys.lua",
         "type": "lua script",
         "install": "git",
         "receiving_url": "https://github.com/fbriere/mpv-scripts",
@@ -238,7 +238,7 @@
     },
     "github:mpv-player/mpv/autocrop.lua": {
         "name": "autocrop",
-        "url": null,
+        "url": "https://github.com/mpv-player/mpv/blob/master/TOOLS/lua/autocrop.lua",
         "type": "lua script",
         "install": "git",
         "receiving_url": "https://github.com/mpv-player/mpv",
@@ -253,7 +253,7 @@
     },
     "github:mpv-player/mpv/autodeint.lua": {
         "name": "autodeint",
-        "url": null,
+        "url": "https://github.com/mpv-player/mpv/blob/master/TOOLS/lua/autodeint.lua",
         "type": "lua script",
         "install": "git",
         "receiving_url": "https://github.com/mpv-player/mpv",
@@ -268,7 +268,7 @@
     },
     "github:mpv-player/mpv/autoload.lua": {
         "name": "autoload",
-        "url": null,
+        "url": "https://github.com/mpv-player/mpv/blob/master/TOOLS/lua/autoload.lua",
         "type": "lua script",
         "install": "git",
         "receiving_url": "https://github.com/mpv-player/mpv",
@@ -283,7 +283,7 @@
     },
     "github:zc62/mpv-scripts/autoloop.lua": {
         "name": "autoloop",
-        "url": null,
+        "url": "https://github.com/zc62/mpv-scripts/blob/master/autoloop.lua",
         "type": "lua script",
         "install": "git",
         "receiving_url": "https://github.com/zc62/mpv-scripts",
@@ -298,7 +298,7 @@
     },
     "github:wiiaboo/mpv-scripts/auto-profiles.lua": {
         "name": "auto-profiles",
-        "url": null,
+        "url": "https://github.com/wiiaboo/mpv-scripts/blob/master/auto-profiles.lua",
         "type": "lua script",
         "install": "git",
         "receiving_url": "https://github.com/wiiaboo/mpv-scripts",
@@ -313,7 +313,7 @@
     },
     "github:AN3223/dotfiles/auto-save-state.lua": {
         "name": "auto-save-state",
-        "url": null,
+        "url": "https://github.com/AN3223/dotfiles/blob/master/.config/mpv/scripts/auto-save-state.lua",
         "type": "lua script",
         "install": "git",
         "receiving_url": "https://github.com/AN3223/dotfiles",
@@ -337,7 +337,7 @@
     },
     "github:kevinlekiller/mpv_scripts/autospeed": {
         "name": "autospeed",
-        "url": null,
+        "url": "https://github.com/kevinlekiller/mpv_scripts/blob/master/autospeed/",
         "type": "lua script",
         "receiving_url": "https://github.com/kevinlekiller/mpv_scripts",
         "install_dir": "github/kevinlekiller/mpv_scripts",
@@ -351,7 +351,7 @@
     },
     "github:kevinlekiller/mpv_scripts/autospeedwin": {
         "name": "autospeedwin",
-        "url": null,
+        "url": "https://github.com/kevinlekiller/mpv_scripts/tree/master/autospeedwin",
         "type": "lua script",
         "receiving_url": "https://github.com/kevinlekiller/mpv_scripts",
         "install_dir": "github/kevinlekiller/mpv_scripts",
@@ -364,7 +364,7 @@
     },
     "github:davidde/mpv-autosub": {
         "name": "autosub",
-        "url": null,
+        "url": "https://github.com/davidde/mpv-autosub",
         "type": "lua script",
         "install": "git",
         "receiving_url": "https://github.com/davidde/mpv-autosub",
@@ -384,7 +384,7 @@
     },
     "github:vayan/autosub-mpv": {
         "name": "autosub",
-        "url": null,
+        "url": "https://github.com/vayan/autosub-mpv",
         "type": "lua script",
         "install": "git",
         "receiving_url": "https://github.com/vayan/autosub-mpv",
@@ -399,7 +399,7 @@
     },
     "github:joaquintorres/autosubsync-mpv": {
         "name": "autosubsync",
-        "url": null,
+        "url": "https://github.com/joaquintorres/autosubsync-mpv",
         "type": "lua script",
         "receiving_url": "https://github.com/joaquintorres/autosubsync-mpv",
         "install_dir": "github/joaquintorres/autosubsync-mpv",
@@ -419,7 +419,7 @@
     },
     "github:occivink/mpv-scripts#blur-edgeslua": {
         "name": "blur-edges",
-        "url": null,
+        "url": "https://github.com/occivink/mpv-scripts#blur-edgeslua",
         "type": "lua script",
         "install": "git",
         "receiving_url": "https://github.com/occivink/mpv-scripts",
@@ -438,7 +438,7 @@
     },
     "github:NurioHin/mpv-bookmarker": {
         "name": "bookmarker-menu",
-        "url": null,
+        "url": "https://github.com/NurioHin/mpv-bookmarker",
         "type": "lua script",
         "receiving_url": "https://github.com/NurioHin/mpv-bookmarker",
         "install_dir": "github/NurioHin/mpv-bookmarker",
@@ -449,7 +449,7 @@
     },
     "github:sorayuki-winter/mpv-plugin-bookmark": {
         "name": "bookmark",
-        "url": null,
+        "url": "https://github.com/sorayuki-winter/mpv-plugin-bookmark",
         "type": "lua script",
         "receiving_url": "https://github.com/sorayuki-winter/mpv-plugin-bookmark",
         "install_dir": "github/sorayuki-winter/mpv-plugin-bookmark",
@@ -469,7 +469,7 @@
     },
     "github:po5/chapterskip": {
         "name": "chapterskip",
-        "url": null,
+        "url": "https://github.com/po5/chapterskip",
         "type": "lua script",
         "receiving_url": "https://github.com/po5/chapterskip",
         "install_dir": "github/po5/chapterskip",
@@ -480,7 +480,7 @@
     },
     "github:Ares-0/mpv-composition-guides": {
         "name": "composition guides",
-        "url": null,
+        "url": "https://github.com/Ares-0/mpv-composition-guides",
         "type": "lua script",
         "receiving_url": "https://github.com/Ares-0/mpv-composition-guides",
         "install_dir": "github/Ares-0/mpv-composition-guides",
@@ -491,7 +491,7 @@
     },
     "github:Arieleg/mpv-copyTime/copyTime": {
         "name": "copyTime",
-        "url": null,
+        "url": "https://github.com/Arieleg/mpv-copyTime",
         "type": "javascript",
         "receiving_url": "https://github.com/Arieleg/mpv-copyTime",
         "install_dir": "github/Arieleg/mpv-copyTime",
@@ -502,7 +502,7 @@
     },
     "github:Arieleg/mpv-copyTime-2": {
         "name": "copyTime",
-        "url": null,
+        "url": "https://github.com/Arieleg/mpv-copyTime",
         "type": "lua script",
         "receiving_url": "https://github.com/Arieleg/mpv-copyTime",
         "install_dir": "github/Arieleg/mpv-copyTime",
@@ -536,7 +536,7 @@
     },
     "github:CogentRedTester/mpv-coverart": {
         "name": "coverart",
-        "url": null,
+        "url": "https://github.com/CogentRedTester/mpv-coverart",
         "type": "lua script",
         "receiving_url": "https://github.com/CogentRedTester/mpv-coverart",
         "install_dir": "github/CogentRedTester/mpv-coverart",
@@ -556,7 +556,7 @@
     },
     "github:occivink/mpv-scripts#croplua": {
         "name": "crop",
-        "url": null,
+        "url": "https://github.com/occivink/mpv-scripts#croplua",
         "type": "lua script",
         "receiving_url": "https://github.com/occivink/mpv-scripts",
         "install_dir": "github/occivink/mpv-scripts",
@@ -598,7 +598,7 @@
     },
     "github:mpv-player/mpv/cycle-deinterlace-pullup.lua": {
         "name": "cycle-deinterlace-pullup",
-        "url": null,
+        "url": "https://github.com/mpv-player/mpv/blob/master/TOOLS/lua/cycle-deinterlace-pullup.lua",
         "type": "lua script",
         "install": "git",
         "receiving_url": "https://github.com/mpv-player/mpv",
@@ -637,7 +637,7 @@
     },
     "github:VideoPlayerCode/mpv-tools/auto-keep-gui-open": {
         "name": "auto-keep-gui-open",
-        "url": null,
+        "url": "https://github.com/VideoPlayerCode/mpv-tools/",
         "type": "lua script",
         "receiving_url": "https://github.com/VideoPlayerCode/mpv-tools",
         "install_dir": "github/VideoPlayerCode/mpv-tools",
@@ -648,7 +648,7 @@
     },
     "github:VideoPlayerCode/mpv-tools/cycle-video-rotate": {
         "name": "cycle-video-rotate",
-        "url": null,
+        "url": "https://github.com/VideoPlayerCode/mpv-tools/",
         "type": "lua script",
         "receiving_url": "https://github.com/VideoPlayerCode/mpv-tools",
         "install_dir": "github/VideoPlayerCode/mpv-tools",
@@ -659,7 +659,7 @@
     },
     "github:demanuel/dessubdb/mpv.lua": {
         "name": "dessubdb",
-        "url": null,
+        "url": "https://github.com/demanuel/dessubdb/blob/master/mpv.lua",
         "type": "lua script",
         "install": "manual",
         "receiving_url": "https://github.com/demanuel/dessubdb",
@@ -674,7 +674,7 @@
     },
     "github:nimatrueway/mpv-locatefile-lua-script": {
         "name": "locate-file",
-        "url": null,
+        "url": "https://github.com/nimatrueway/mpv-locatefile-lua-script",
         "type": "lua script",
         "receiving_url": "https://github.com/nimatrueway/mpv-locatefile-lua-script",
         "install_dir": "github/nimatrueway/mpv-locatefile-lua-script",
@@ -685,7 +685,7 @@
     },
     "github:b4zz4/mpv-delogo": {
         "name": "delogo",
-        "url": null,
+        "url": "https://github.com/b4zz4/mpv-delogo",
         "type": "lua script",
         "receiving_url": "https://github.com/b4zz4/mpv-delogo",
         "install_dir": "github/b4zz4/mpv-delogo",
@@ -696,7 +696,7 @@
     },
     "github:b4zz4/mpv-deframe": {
         "name": "deframe",
-        "url": null,
+        "url": "https://github.com/b4zz4/mpv-deframe",
         "type": "lua script",
         "receiving_url": "https://github.com/b4zz4/mpv-deframe",
         "install_dir": "github/b4zz4/mpv-deframe",
@@ -714,7 +714,7 @@
     },
     "github:aidanholm/mpv-easycrop": {
         "name": "easycrop",
-        "url": null,
+        "url": "https://github.com/aidanholm/mpv-easycrop",
         "type": "lua script",
         "receiving_url": "https://github.com/aidanholm/mpv-easycrop",
         "install_dir": "github/aidanholm/mpv-easycrop",
@@ -725,7 +725,7 @@
     },
     "github:occivink/mpv-scripts#encodelua": {
         "name": "encode",
-        "url": null,
+        "url": "https://github.com/occivink/mpv-scripts#encodelua",
         "type": "lua script",
         "install": "git",
         "receiving_url": "https://github.com/occivink/mpv-scripts",
@@ -760,7 +760,7 @@
     },
     "github:zc62/mpv-scripts/exit-fullscreen.lua": {
         "name": "exit-fullscreen",
-        "url": null,
+        "url": "https://github.com/zc62/mpv-scripts/blob/master/exit-fullscreen.lua",
         "type": "lua script",
         "install": "git",
         "receiving_url": "https://github.com/zc62/mpv-scripts",
@@ -775,7 +775,7 @@
     },
     "github:jgreco/mpv-scripts/fastforward.lua": {
         "name": "fastforward",
-        "url": null,
+        "url": "https://github.com/jgreco/mpv-scripts/blob/master/fastforward.lua",
         "type": "lua script",
         "install": "git",
         "receiving_url": "https://github.com/jgreco/mpv-scripts",
@@ -790,7 +790,7 @@
     },
     "github:zsugabubus/mpv-fastforward": {
         "name": "fast-forward",
-        "url": null,
+        "url": "https://github.com/zsugabubus/mpv-fastforward",
         "type": "lua script",
         "receiving_url": "https://github.com/zsugabubus/mpv-fastforward",
         "install_dir": "github/zsugabubus/mpv-fastforward",
@@ -801,7 +801,7 @@
     },
     "github:jonniek/mpv-filenavigator": {
         "name": "filenavigator",
-        "url": null,
+        "url": "https://github.com/jonniek/mpv-filenavigator",
         "type": "lua script",
         "receiving_url": "https://github.com/jonniek/mpv-filenavigator",
         "install_dir": "github/jonniek/mpv-filenavigator",
@@ -823,7 +823,7 @@
     },
     "github:directorscut82/find_subtitles": {
         "name": "find_subtitles",
-        "url": null,
+        "url": "https://github.com/directorscut82/find_subtitles",
         "type": "lua script",
         "install": "git",
         "receiving_url": "https://github.com/directorscut82/find_subtitles",
@@ -841,7 +841,7 @@
     },
     "github:mfcc64/mpv-scripts/firequalizer15.lua": {
         "name": "firequalizer15",
-        "url": null,
+        "url": "https://github.com/mfcc64/mpv-scripts/blob/master/firequalizer15.lua",
         "type": "lua script",
         "install": "git",
         "receiving_url": "https://github.com/mfcc64/mpv-scripts",
@@ -857,7 +857,7 @@
     },
     "github:wiiaboo/mpv-scripts/fix-sub-timing.lua": {
         "name": "fix_sub_timing",
-        "url": null,
+        "url": "https://github.com/wiiaboo/mpv-scripts/blob/master/fix-sub-timing.lua",
         "type": "lua script",
         "install": "git",
         "receiving_url": "https://github.com/wiiaboo/mpv-scripts",
@@ -872,7 +872,7 @@
     },
     "github:AN3223/dotfiles/force-window-profile.lua": {
         "name": "force-window-profile",
-        "url": null,
+        "url": "https://github.com/AN3223/dotfiles/blob/master/.config/mpv/scripts/force-window-profile.lua",
         "type": "lua script",
         "install": "git",
         "receiving_url": "https://github.com/AN3223/dotfiles",
@@ -887,7 +887,7 @@
     },
     "github:haasn/gentoo-conf/fpsadjust.lua": {
         "name": "fpsadjust",
-        "url": null,
+        "url": "https://github.com/haasn/gentoo-conf/blob/xor/home/nand/.mpv/scripts/avail/fpsadjust.lua",
         "type": "lua script",
         "install": "git",
         "receiving_url": "https://github.com/haasn/gentoo-conf",
@@ -902,7 +902,7 @@
     },
     "github:dya-tel/mpv-scripts/blackout": {
         "name": "blackout",
-        "url": null,
+        "url": "https://github.com/dya-tel/mpv-scripts",
         "type": "lua script",
         "receiving_url": "https://github.com/dya-tel/mpv-scripts",
         "install_dir": "github/dya-tel/mpv-scripts",
@@ -913,7 +913,7 @@
     },
     "github:dya-tel/mpv-scripts/fuzzydir": {
         "name": "fuzzydir",
-        "url": null,
+        "url": "https://github.com/dya-tel/mpv-scripts",
         "type": "lua script",
         "receiving_url": "https://github.com/dya-tel/mpv-scripts",
         "install_dir": "github/dya-tel/mpv-scripts",
@@ -924,7 +924,7 @@
     },
     "github:jgreco/mpv-scripts/gallery-dl_hook.lua": {
         "name": "gallery-dl_hook",
-        "url": null,
+        "url": "https://github.com/jgreco/mpv-scripts/blob/master/gallery-dl_hook.lua",
         "type": "lua script",
         "install": "git",
         "receiving_url": "https://github.com/jgreco/mpv-scripts",
@@ -940,7 +940,7 @@
     },
     "github:CounterPillow/mpv-gpufreq": {
         "name": "gpufreq",
-        "url": null,
+        "url": "https://github.com/CounterPillow/mpv-gpufreq",
         "type": "lua script",
         "receiving_url": "https://github.com/CounterPillow/mpv-gpufreq",
         "install_dir": "github/CounterPillow/mpv-gpufreq",
@@ -953,7 +953,7 @@
     },
     "github:po5/groupwatch_sync": {
         "name": "groupwatch_sync",
-        "url": null,
+        "url": "https://github.com/po5/groupwatch_sync",
         "type": "lua script",
         "receiving_url": "https://github.com/po5/groupwatch_sync",
         "install_dir": "github/po5/groupwatch_sync",
@@ -964,7 +964,7 @@
     },
     "github:detuur/mpv-scripts/boss-key": {
         "name": "boss-key",
-        "url": null,
+        "url": "https://github.com/detuur/mpv-scripts",
         "type": "lua script",
         "receiving_url": "https://github.com/detuur/mpv-scripts",
         "install_dir": "github/detuur/mpv-scripts",
@@ -978,7 +978,7 @@
     },
     "github:detuur/mpv-scripts/histogram": {
         "name": "histogram",
-        "url": null,
+        "url": "https://github.com/detuur/mpv-scripts",
         "type": "lua script",
         "receiving_url": "https://github.com/detuur/mpv-scripts",
         "install_dir": "github/detuur/mpv-scripts",
@@ -998,7 +998,7 @@
     },
     "github:occivink/mpv-image-viewer/drag-to-pan": {
         "name": "drag-to-pan",
-        "url": null,
+        "url": "https://github.com/occivink/mpv-image-viewer",
         "type": "lua script",
         "receiving_url": "https://github.com/occivink/mpv-image-viewer",
         "install_dir": "github/occivink/mpv-image-viewer",
@@ -1009,7 +1009,7 @@
     },
     "github:occivink/mpv-image-viewer/image-viewer": {
         "name": "image-viewer",
-        "url": null,
+        "url": "https://github.com/occivink/mpv-image-viewer",
         "type": "lua script",
         "receiving_url": "https://github.com/occivink/mpv-image-viewer",
         "install_dir": "github/occivink/mpv-image-viewer",
@@ -1020,7 +1020,7 @@
     },
     "github:mosquito-byte/mpv-interactive-video": {
         "name": "interactive-video",
-        "url": null,
+        "url": "https://github.com/mosquito-byte/mpv-interactive-video",
         "type": "lua script",
         "receiving_url": "https://github.com/mosquito-byte/mpv-interactive-video",
         "install_dir": "github/mosquito-byte/mpv-interactive-video",
@@ -1031,7 +1031,7 @@
     },
     "github:oltodosel/interSubs": {
         "name": "interSubs",
-        "url": null,
+        "url": "https://github.com/oltodosel/interSubs",
         "type": "lua script",
         "receiving_url": "https://github.com/oltodosel/interSubs",
         "install_dir": "github/oltodosel/interSubs",
@@ -1045,7 +1045,7 @@
     },
     "github:l29ah/w3crapcli/mpv-lastfm.lua": {
         "name": "last.fm scrobbler",
-        "url": null,
+        "url": "https://github.com/l29ah/w3crapcli/blob/master/last.fm/mpv-lastfm.lua",
         "type": "lua script",
         "install": "manual",
         "receiving_url": "https://github.com/l29ah/w3crapcli",
@@ -1060,7 +1060,7 @@
     },
     "github:po5/libass_sub_selector": {
         "name": "libass_sub_selector",
-        "url": null,
+        "url": "https://github.com/po5/libass_sub_selector",
         "type": "lua script",
         "receiving_url": "https://github.com/po5/libass_sub_selector",
         "install_dir": "github/po5/libass_sub_selector",
@@ -1862,7 +1862,7 @@
     },
     "github:VideoPlayerCode/mpv-tools/multi-command-if": {
         "name": "multi-command-if",
-        "url": null,
+        "url": "https://github.com/VideoPlayerCode/mpv-tools/",
         "type": "lua script",
         "receiving_url": "https://github.com/VideoPlayerCode/mpv-tools",
         "install_dir": "github/VideoPlayerCode/mpv-tools",
@@ -1873,7 +1873,7 @@
     },
     "github:VideoPlayerCode/mpv-tools/quick-scale": {
         "name": "quick-scale",
-        "url": null,
+        "url": "https://github.com/VideoPlayerCode/mpv-tools/",
         "type": "lua script",
         "receiving_url": "https://github.com/VideoPlayerCode/mpv-tools",
         "install_dir": "github/VideoPlayerCode/mpv-tools",
@@ -2092,7 +2092,7 @@
     },
     "github:detuur/mpv-scripts": {
         "name": "skiptosilence",
-        "url": null,
+        "url": "https://github.com/detuur/mpv-scripts",
         "type": "lua script",
         "receiving_url": "https://github.com/detuur/mpv-scripts",
         "install_dir": "github/detuur/mpv-scripts",

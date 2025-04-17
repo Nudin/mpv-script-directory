@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import json
+import os
 import re
 from pprint import pprint
 
@@ -7,8 +8,19 @@ import requests
 from bs4 import BeautifulSoup
 from requests.auth import HTTPBasicAuth
 
-from credentials import credentials as c
-credentials = c.require(['user', 'token'])
+# It requires a Github personal access token with the "repo" scope
+# to be set in the credentials.py file.
+try:
+    import credentials
+except ImportError:
+    credentials = object()
+    credentials.user = None
+    # Fall back to env variable GITHUB_TOKEN
+    credentials.token = os.getenv("GITHUB_TOKEN")
+
+# This script queries the Github API for the number of stars of a repository
+# and updates the mpv_script_directory.json file accordingly.
+
 
 re_gitlab = re.compile(
     r"^https://gitlab\.com/([^/]+)/([^/]+)(?:/[^#&]*?)*?([^/#&]+)?/?(?:#.*|&.*)*$"

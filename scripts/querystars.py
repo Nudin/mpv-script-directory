@@ -62,18 +62,18 @@ def updatestars(allscripts):
         match = re_github.fullmatch(url)
         if match:
             stars = getGithubStars(*match.groups())
-            if stars is None:
-                print("dead url", url)
-                script["url"] = None
-                continue
+            # if stars is None:
+            #    print("dead url", url)
+            #    script["url"] = None
+            #    continue
             shared = match.groups()[2] is not None
         elif re_gist.match(url):
             # Github API is missing a possibility to query for stars of a gist
             page = requests.get(url)
-            if page.status_code == 404:
-                print("dead url", url)
-                script["url"] = None
-                continue
+            # if page.status_code == 404:
+            #    print("dead url", url)
+            #    script["url"] = None
+            #    continue
             soup = BeautifulSoup(page.content, "html.parser")
             stars = int(soup.select_one("#gist-star-button .Counter").text.strip())
             shared = False

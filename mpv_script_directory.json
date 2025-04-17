@@ -36,7 +36,7 @@
         "executeablefiles": [],
         "install-notes": "Press F12 in MPV to toggle silence skipping."
     },
-    "github:VideoPlayerCode/mpv-tools/Blackbox": {
+    {
         "name": "Blackbox",
         "url": "https://github.com/VideoPlayerCode/mpv-tools/",
         "type": "javascript",

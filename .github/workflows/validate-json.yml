@@ -1,0 +1,25 @@
+name: Validate JSON on PR
+
+on:
+  push:
+    paths:
+      - 'mpv_script_directory.json'
+  pull_request:
+    paths:
+      - 'mpv_script_directory.json'
+
+jobs:
+  validate-json:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Validate JSON
+        run: python scripts/validate_json.py

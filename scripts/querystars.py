@@ -36,9 +36,16 @@ re_gist = re.compile(r"^https://gist.github\.com/([^/]+)/(\w+)/?(?:#.*|&.*)*$")
 
 @lru_cache(maxsize=128)
 def getGithubStars(owner, repo, _):
-    auth = HTTPBasicAuth(credentials.user, credentials.token)
     api_url = f"https://api.github.com/repos/{owner}/{repo}"
-    r = requests.get(api_url, auth=auth)
+    if credentials.user:
+        auth = HTTPBasicAuth(credentials.user, credentials.token)
+        r = requests.get(api_url, auth=auth)
+    else:
+        headers = {
+            "Authorization": f"Bearer {credentials.token}",
+            "Accept": "application/vnd.github+json",
+        }
+        r = requests.get(api_url, headers=headers)
     if r.status_code != 200:
         return None
     data = r.json()

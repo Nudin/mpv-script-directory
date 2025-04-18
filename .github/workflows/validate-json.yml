@@ -2,11 +2,7 @@ name: Validate JSON on PR
 
 on:
   push:
-    paths:
-      - 'mpv_script_directory.json'
   pull_request:
-    paths:
-      - 'mpv_script_directory.json'
 
 jobs:
   validate-json:

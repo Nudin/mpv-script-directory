@@ -1,4 +1,4 @@
-name: Validate JSON on PR
+name: Validate JSON schema on PR/push
 
 on:
   push:
@@ -16,6 +16,9 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install jsonschema
 
       - name: Validate JSON
         run: python scripts/validate_json.py

@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "patternProperties": {
+    "^[^:]+:[^/]+(/[^/]+)*$": {
+      "type": "object",
+      "required": [
+        "name",
+        "url",
+        "type"
+      ],
+      "properties": {
+        "name": { "type": "string" },
+        "url": { "type": "string", "format": "uri" },
+        "type": { "type": "string" },
+        "desc": { "type": "string" },
+        "os": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "stars": { "type": "integer", "minimum": 0 },
+        "sharedrepo": { "type": "boolean" },
+        "install": { "type": "string" },
+        "receiving_url": { "type": "string", "format": "uri" },
+        "install_dir": { "type": "string" },
+        "scriptfiles": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "scriptoptfiles": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "shaderfiles": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "fontfiles": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "exefiles": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "ladspafiles": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "filename": { "type": "string" },
+        "install-notes": { "type": "string" }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

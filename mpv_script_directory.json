@@ -623,7 +623,7 @@
         "type": "lua script",
         "desc": "Cycle between lavfi's denoise filters (press n)",
         "os": [],
-        "stars": 12,
+        "stars": 13,
         "sharedrepo": false
     },
     "gist:rrooij/59f57ff5f5a952e56bbb": {

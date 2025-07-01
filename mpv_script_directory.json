@@ -709,7 +709,7 @@
         "type": "lua script",
         "desc": "Dynamic Audio Normalizer filter with visual feedback.",
         "os": [],
-        "stars": 10,
+        "stars": 11,
         "sharedrepo": false
     },
     "github:aidanholm/mpv-easycrop": {

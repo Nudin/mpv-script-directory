@@ -531,7 +531,7 @@
         "type": "lua script",
         "desc": "Script to quickly convert and crop videos from within mpv, with a GUI.",
         "os": [],
-        "stars": 71,
+        "stars": 72,
         "sharedrepo": false
     },
     "github:CogentRedTester/mpv-coverart": {
